@@ -194,13 +194,11 @@ a:visited {
     background-color: rgba(255, 255, 255, 0.95); }
 
   .heading-logo {
-    margin: 0; }
+    margin: 0;
+    margin-top: 30px; }
 
   .logo-white {
     fill: white; }
-
-  .logo-dark {
-    fill: #6D01DB; }
 
   .header {
     justify-content: center;
@@ -215,7 +213,10 @@ a:visited {
 
   .button-main {
     background-color: rgba(255, 255, 255, 0);
-    width: 250px; } }
+    width: 250px; }
+
+  .logo-element {
+    fill: white; } }
 @media (min-width: 1200px) {
   .floating-content-block {
     text-align: left;
@@ -228,10 +229,12 @@ a:visited {
     height: 100vh; }
 
   .heading {
+    padding: 0;
     justify-content: left;
     background-color: rgba(0, 0, 0, 0); }
 
   .heading-logo {
+    margin-top: 100px;
     margin-left: 60px; }
 
   .logo-element {
@@ -604,7 +607,7 @@ ul {
   background-image: url("assets/projects/argive.png"); }
 
 #onehopeImage {
-  background-image: url("assets/projects/oneHope.png"); }
+  background-image: url("assets/projects/onehope.png"); }
 
 #foolproofImage {
   background-image: url("assets/projects/foolproof.png"); }

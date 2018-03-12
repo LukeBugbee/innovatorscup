@@ -281,14 +281,11 @@ a:visited {
 
 	.heading-logo {
 		margin:0;
+		margin-top:30px;
 	}
 
 	.logo-white {
 		fill:white;
-	}
-
-	.logo-dark {
-		fill:#6D01DB;
 	}
 
 	.header {
@@ -309,6 +306,10 @@ a:visited {
 		width:250px;
 	}
 
+	.logo-element {
+		fill:white;
+	}
+
 }
 
 @include for-desktop-up {
@@ -325,12 +326,14 @@ a:visited {
 	}
 
 	.heading {
+		padding:0;
 		justify-content:left;
 		background-color:rgba(0,0,0,0);
 	}
 	
 	.heading-logo {
-		margin-left:60px;
+		margin-top: 100px;
+		margin-left: 60px;
 
 	}
 
