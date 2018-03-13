@@ -235,6 +235,10 @@ a:visited {
 		fill:$purple-main;
 	}
 
+	.footer-logo .logo-element {
+		fill:#ffffff;
+	}
+
 	.floating-content-block {
 		margin-top: 60px;
 		width: 90%;
@@ -260,16 +264,12 @@ a:visited {
 
 @include for-tablet-portrait-up {
 	.heading {
-		// display:none;
 		background-color: rgba(255,255,255,.0);
 		background-image:none;
 		display:flex;
 		justify-content:center;
-		// padding-top:30px;
-		// padding-bottom:30px;
 		transition:.66s ease;
 		align-items:center;
-		// background-color:white;
 	}
 	
 	.scroll {

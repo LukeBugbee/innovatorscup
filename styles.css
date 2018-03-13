@@ -161,6 +161,9 @@ a:visited {
   .logo-element {
     fill: RGBA(104, 32, 219, 1); }
 
+  .footer-logo .logo-element {
+    fill: #ffffff; }
+
   .floating-content-block {
     margin-top: 60px;
     width: 90%;
