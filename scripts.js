@@ -1,6 +1,15 @@
 $( document ).ready(function() {
-	 $("body").children().each(function() {
-        $(this).html($(this).html().replace(/&#8232;/g," "));
+	 // $("body").children().each(function() {
+  //       $(this).html($(this).html().replace(/&#8232;/g," "));
+
+     
+        $(".footer-text").html().replace(/&#8232;/g," ");
+        $(".floating-content-block > h2").html().replace(/&#8232;/g," ");
+
+
+
+
+
     });
 	 
 	$( window ).scroll(function() {
