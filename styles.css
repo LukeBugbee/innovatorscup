@@ -19,6 +19,13 @@ a {
 a:visited {
   text-decoration: none; }
 
+.inline-link {
+  color: white;
+  text-decoration: underline; }
+
+.inline-link:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
 .section-title {
   text-transform: uppercase;
   color: RGBA(104, 32, 219, 1);
