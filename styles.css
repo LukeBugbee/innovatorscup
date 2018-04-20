@@ -77,9 +77,9 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid RGBA(104, 32, 219, 1);
+  border: 2px solid RGBA(104, 32, 219, 1);
   font-size: 16px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: RGBA(104, 32, 219, 1);
   transition: .4s ease;
   border-radius: 4px; }
@@ -430,7 +430,7 @@ ul {
 
 .floating-box-button {
   background-color: none;
-  border: 1px solid RGBA(104, 32, 219, 1);
+  border: 2px solid RGBA(104, 32, 219, 1);
   width: 100%;
   color: RGBA(104, 32, 219, 1);
   font-size: 15px;
