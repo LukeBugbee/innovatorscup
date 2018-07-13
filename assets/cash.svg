@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="58px" viewBox="0 0 94 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-cash</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width=".5" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="icon-cash" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF" stroke-width="2">
+            <polyline id="Stroke-1" stroke-linecap="round" points="92.9988 12 68.9988 28 48.9988 28"></polyline>
+            <polyline id="Stroke-3" stroke-linecap="round" points="92.9988 20 68.9988 36 48.9988 36"></polyline>
+            <polyline id="Stroke-5" stroke-linecap="round" points="92.9988 28 68.9988 44 48.9988 44"></polyline>
+            <polyline id="Stroke-7" stroke-linecap="round" points="92.9988 36 68.9988 52 48.9988 52"></polyline>
+            <polygon id="Stroke-9" stroke-linecap="round" points="48.9988 56 20.9988 56 20.9988 18 44.9988 0 72.9988 0 48.9988 18"></polygon>
+            <path d="M20.9988,28 L0.9988,28" id="Stroke-11" stroke-linecap="round"></path>
+            <path d="M20.9988,36 L0.9988,36" id="Stroke-13" stroke-linecap="round"></path>
+            <path d="M20.9988,44 L0.9988,44" id="Stroke-15" stroke-linecap="round"></path>
+            <path d="M20.9988,52 L0.9988,52" id="Stroke-17" stroke-linecap="round"></path>
+            <polyline id="Stroke-19" points="66.9988 4 92.9988 4 68.9988 20 48.9988 20"></polyline>
+            <polyline id="Stroke-21" points="20.9988 20 0.9988 20 24.9988 4 38.9988 4"></polyline>
+            <path d="M34.9988,46 L34.9988,50" id="Stroke-24" stroke-linecap="round"></path>
+            <path d="M34.9988,18 L34.9988,22" id="Stroke-25" stroke-linecap="round"></path>
+            <path d="M28.9988,40 C28.9988,43.312 31.6868,46 34.9988,46 C38.3108,46 40.9988,43.312 40.9988,40 C40.9988,36.684 38.3108,34 34.9988,34 C31.6868,34 28.9988,31.312 28.9988,28 C28.9988,24.684 31.6868,22 34.9988,22 C38.3108,22 40.9988,24.684 40.9988,28" id="Stroke-26" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

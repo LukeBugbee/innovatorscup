@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="60px" viewBox="0 0 72 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-megaphone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width=".5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="icon-megaphone" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="2">
+            <path d="M21.5,12.5 L21.5,38.084 C21.5,46.307 26.147,53.822 33.5,57.5" id="Stroke-1"></path>
+            <path d="M69.5,26 C69.5,28.484 67.484,30.5 65,30.5 L63.5,30.5 L63.5,18.5 L65,18.5 C67.484,18.5 69.5,20.516 69.5,23 L69.5,26 Z" id="Stroke-3"></path>
+            <path d="M12.5,12.5 L9.5,12.5 C4.529,12.5 0.5,16.529 0.5,21.5 L0.5,27.5 C0.5,32.471 4.529,36.5 9.5,36.5 L12.5,36.5 C39.281,36.5 50.27,42.488 63.5,48.5 L63.5,0.5 C50.297,6.5 39.296,12.5 12.5,12.5 Z" id="Stroke-5"></path>
+        </g>
+    </g>
+</svg>
