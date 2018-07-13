@@ -101,7 +101,7 @@ a:visited {
 .header {
   flex-direction: column;
   justify-content: space-between;
-  background-image: url("assets/header-image-v3-dark.jpg");
+  background-image: url("assets/header-image-v3.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
@@ -126,7 +126,7 @@ a:visited {
 .floating-content-block {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: RGBA(82, 59, 218, 0.85);
   width: 500px;
   height: 50vh;
   margin-left: 60px;
@@ -283,7 +283,7 @@ a:visited {
   left: 0;
   background-color: #523BDA;
   z-index: 1;
-  border-radius: 0px 30px 30px 0px;
+  border-radius: 0px 8px 8px 0px;
   transform: translateY(-100px); }
 
 .about {
@@ -504,7 +504,8 @@ ul {
   width: 33.33%;
   color: white;
   text-align: center;
-  height: 65vh; }
+  height: 65vh;
+  border-radius: 8px; }
 
 .benefit:nth-child(2) {
   margin-left: 30px;
@@ -600,7 +601,8 @@ ul {
   width: 25%;
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  border-radius: 8px; }
 
 .project-information {
   display: flex;
