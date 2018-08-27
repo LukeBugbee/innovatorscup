@@ -5,7 +5,8 @@
 		<title>Innovators Cup</title>
 		<!-- SEO -->
 		<!-- viewport -->
-		<link rel="stylesheet" href="assets/css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/styles.min.css">
 	</head>
 	<body>
 
@@ -26,9 +27,9 @@
 
 		</header>
 
-		<section>
+		<section class="mod-header mod-header--bg">
 			<div class="container">
-				<div class="left-column">
+				<div class="left-column wysiwyg">
 					<h1>
 						8VC Social <br>
 						Innovator&rsquo;s Cup
@@ -42,8 +43,8 @@
 			<!-- /.container -->
 		</section>
 
-		<section class="svg-line-bg">
-			<div class="container">
+		<section class="mod-line-bg">
+			<div class="container wysiwyg">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 				</p>
@@ -112,6 +113,8 @@
 			<!-- /.container -->
 		</section>
 		<!-- /.svg-line-bg -->
+
+		<script src="assets/js/scripts.min.js"></script>
 
 	</body>
 </html>

@@ -1,0 +1,81 @@
+// grid settings
+$columns: 12;
+
+$gutters: (
+	mobile: 20px,
+	mobile-outer: 30px,
+	desktop: 80px,
+	desktop-outer: 50px
+);
+
+$container: (
+	default: 1200px,
+	slim: 1000px,
+	wide: 1600px,
+	xtra-wide: 1600px,
+	full-width: 'none'
+);
+
+
+// grid mixins
+@mixin container($size: 'default') {
+	max-width: map-get($container, $size);
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	overflow: auto;
+	width: 100%;
+	padding-left: map-get($gutters, 'mobile-outer') - (map-get($gutters, 'mobile') / 2);
+	padding-right: map-get($gutters, 'mobile-outer') - (map-get($gutters, 'mobile') / 2);
+
+	@include bp($m) {
+		padding-left: map-get($gutters, 'desktop-outer') - (map-get($gutters, 'desktop') / 2);
+		padding-right: map-get($gutters, 'desktop-outer') - (map-get($gutters, 'desktop') / 2);
+	}
+}
+
+@mixin span($span: $columns, $gutter: ""){
+	min-height: 1px;
+	float: left;
+	box-sizing: border-box;
+
+	padding-left: (map-get($gutters, 'mobile') / 2);
+	padding-right: (map-get($gutters, 'mobile') / 2);
+
+	@include bp($m) {
+		padding-left: (map-get($gutters, 'desktop') / 2);
+		padding-right: (map-get($gutters, 'desktop') / 2);
+	}
+
+	@if( $gutter == no-gutter ){
+		padding-left: 0;
+		padding-right: 0;
+
+		@include bp($m) {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	@if($span < 1){
+		width: $span*100+%;
+	} @else {
+		width: $span/$columns*100+%;
+	}
+}
+
+@mixin push($span: 1){
+	@if($span < 1){
+		margin-left: $span*100+%;
+	} @else {
+		margin-left: $span/$columns*100+%;
+	}
+}
+
+@mixin pull($span: 1){
+	@if($span < 1){
+		margin-left: -($span*100+%);
+	} @else {
+		margin-left: -($span/$columns*100+%);
+	}
+}
