@@ -1,0 +1,25 @@
+.mod--final-cta {
+	background-color: $darkPurple;
+	color: $lightGray;
+	padding-top: 100px;
+	padding-bottom: 250px;
+	text-align: center;
+	background-image: url(../img/illustration-people.svg);
+	background-size: 100% auto;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+
+	h2 {
+		font-size: 24px;
+		text-transform: uppercase;
+		margin-bottom: 50px;
+	}
+
+	.button { margin-bottom: 20px; }
+
+	small {
+		display: block;
+		font-size: 18px;
+		font-weight: 300;
+	}
+}

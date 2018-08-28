@@ -105,11 +105,11 @@
 	</section>
 	<!-- /.columns columns--3 -->
 
-	<section class="svg-line-bg">
+	<section class="mod mod--final-cta">
 		<div class="container">
 			<h2>Let&rsquo;s build shared value together.</h2>
-			<a href="#" class="button">Apply</a>
-			<p>Application deadline: October 31</p>
+			<a href="#" class="button button--extra-wide">Apply</a>
+			<small>Application deadline: October 31</small>
 		</div>
 		<!-- /.container -->
 	</section>

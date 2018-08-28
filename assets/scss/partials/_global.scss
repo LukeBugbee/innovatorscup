@@ -53,9 +53,8 @@ button {
 		color: $purple;
 	}
 
-	&--wide {
-		padding: 20px 95px;
-	}
+	&--wide { padding: 20px 95px; }
+	&--extra-wide { padding: 20px 185px; }
 }
 
 .logo {
