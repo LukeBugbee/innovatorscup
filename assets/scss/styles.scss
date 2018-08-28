@@ -1,1 +1,13 @@
-@import "partials/_imports";
+@import 'partials/_reset';
+@import 'partials/_vars';
+@import 'partials/_mixins';
+@import 'partials/_grid';
+@import 'partials/_typography';
+@import 'partials/_z-index';
+@import 'partials/_global';
+@import "partials/_header";
+@import "partials/_footer";
+@import "partials/_wysiwyg";
+@import "partials/_mod-header";
+@import "partials/_mod-line-bg";
+@import "partials/_mod-prizes";

@@ -1,8 +1,7 @@
 .mod-header {
 	height: 100vh;
 	min-height: 100vh;
-	background: rgb(105, 78, 137);
-
+	background: $purple;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -17,5 +16,14 @@
 	.left-column {
 		max-width: 570px;
 	}
+
+	&--bg {
+		background-image: linear-gradient(to right, rgba($purple, .3) 0%, transparent 100%), url(../img/nyc-fence-small.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	h1 { text-transform: uppercase; }
 
 }

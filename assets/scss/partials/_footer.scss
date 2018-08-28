@@ -1,3 +1,42 @@
-footer {
+.ic-footer {
+	padding: 20px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
 
+	@include bp($m) {
+		flex-flow: row nowrap;
+		padding: 50px 40px;
+	}
+
+	nav {
+		font-size: 14px;
+		display: none;
+
+		@include bp($m) { display: block; }
+
+		a {
+			color: $gray;
+			text-transform: uppercase;
+			display: block;
+
+			@include bp($m) {
+				display: inline-block;
+				margin: 0 12px;
+			}
+
+			&:hover,
+			&.active {
+				color: #fff;
+			}
+		}
+	}
+
+	.copyright {
+		font-size: 14px;
+		text-transform: uppercase;
+		color: $gray;
+	}
 }

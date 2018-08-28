@@ -1,26 +1,36 @@
-header {
+.ic-header {
+	padding: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		height: 250px;
+		background-image: linear-gradient(to bottom, #000 0%, transparent 100%);
+		z-index: -1;
+		opacity: .85;
+	}
 
 	@if $fixedHeader {
 		position: fixed;
-			top: 0; left: 0;
+		top: 0; left: 0;
 		width: 100%;
-		height: 50px;
+		// height: 50px;
 
-		@include bp($m) {
-			height: 100px;
-		}
+		// @include bp($m) {
+		// 	height: 100px;
+		// }
 	}
 
-	.container {
-		display: flex;
-		width: 100%;
-		justify-content: space-between;
-		padding: 30px 10px;
-	}
-
-	.logo {
-		color: #fff;
-	}
+	@include bp($m) { padding: 50px 40px; }
 
 	nav {
 		font-size: 14px;
@@ -40,7 +50,8 @@ header {
 				margin: 0 12px;
 			}
 
-			&:hover {
+			&:hover,
+			&.active {
 				color: #fff;
 			}
 		}
