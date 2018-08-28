@@ -1,0 +1,36 @@
+.mod--projects {
+	padding: 100px 0;
+
+	.projects {
+		display: grid;
+		grid-gap: 30px;
+		grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+		grid-auto-rows: 10px;
+
+		.project {
+			&__figure {
+				padding-bottom: 42.16%;
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+
+			&__content {
+				background-color: $darkGray;
+				font-size: 18px;
+				color: $lightGray;
+				padding: 25px;
+
+				p {
+					margin-bottom: 1em;
+					line-height: 1.66;
+
+					a {
+						text-decoration: underline;
+						color: inherit;
+					}
+				}
+			}
+		}
+	}
+}

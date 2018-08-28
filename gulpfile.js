@@ -30,6 +30,7 @@ gulp.task('sass', (cb) => {
 gulp.task('js', (cb) => {
 	pump([
 		gulp.src([
+			'node_modules/imagesloaded/imagesloaded.pkgd.min.js',
 			'assets/js/vendors/jquery-3.2.1.min.js',
 			'assets/js/scripts.js'
 			]),
@@ -45,7 +46,7 @@ gulp.task('js', (cb) => {
 gulp.task('serve', (cb) => {
 	bs.init({ proxy: 'innovators-cup.test' });
 
-	gulp.watch(['assets/**/*.js', '!assets/scripts.min.js'], ['js']);
+	gulp.watch(['assets/**/*.js', '!assets/js/scripts.min.js'], ['js']);
 	gulp.watch(['assets/scss/**/*.scss'], ['sass']);
 	gulp.watch(['**/*.html', '**/*.php']).on('change', bs.reload);
 });
