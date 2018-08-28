@@ -22,7 +22,7 @@
 		</nav>
 	</header>
 
-	<section class="mod-header mod-header--bg">
+	<section class="mod-header mod-header--bg full">
 		<div class="container">
 			<div class="left-column wysiwyg">
 				<h1>

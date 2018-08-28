@@ -1,0 +1,38 @@
+.mod--panel-members {
+	padding: 100px 0;
+
+	.panel {
+		@include pxcols(30px, 30px, 2);
+
+		&__member {
+			display: flex;
+			flex-flow: row nowrap;
+			min-width: 50%;
+
+			figure {
+				width: 48%;
+				min-height: 320px;
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+
+			.content {
+				background-color: $darkGray;
+				flex: 1;
+				padding: 25px;
+
+				h2 {
+					font-weight: 300;
+					color: $lightGray;
+					font-size: 36px;
+				}
+
+				p {
+					font-size: 16px;
+					color: $gray;
+				}
+			}
+		}
+	}
+}

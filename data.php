@@ -18,3 +18,51 @@ $pages = [
 		'name' => 'about 8vc'
 	]
 ];
+
+$panelMembers = [
+	[
+		'img' => 'https://placeimg.com/272/326/people',
+		'name' => 'Ashton Eaton',
+		'title' => '2x Olympic Gold Medalist, Decathlon'
+	],
+	[
+		'img' => 'https://placeimg.com/272/326/people',
+		'name' => 'Ashton Eaton',
+		'title' => '2x Olympic Gold Medalist, Decathlon'
+	],
+	[
+		'img' => 'https://placeimg.com/272/326/people',
+		'name' => 'Ashton Eaton',
+		'title' => '2x Olympic Gold Medalist, Decathlon'
+	],
+	[
+		'img' => 'https://placeimg.com/272/326/people',
+		'name' => 'Ashton Eaton',
+		'title' => '2x Olympic Gold Medalist, Decathlon'
+	],
+	[
+		'img' => 'https://placeimg.com/272/326/people',
+		'name' => 'Ashton Eaton',
+		'title' => '2x Olympic Gold Medalist, Decathlon'
+	],
+	[
+		'img' => 'https://placeimg.com/272/326/people',
+		'name' => 'Ashton Eaton',
+		'title' => '2x Olympic Gold Medalist, Decathlon'
+	],
+	[
+		'img' => 'https://placeimg.com/272/326/people',
+		'name' => 'Ashton Eaton',
+		'title' => '2x Olympic Gold Medalist, Decathlon'
+	],
+	[
+		'img' => 'https://placeimg.com/272/326/people',
+		'name' => 'Ashton Eaton',
+		'title' => '2x Olympic Gold Medalist, Decathlon'
+	],
+	[
+		'img' => 'https://placeimg.com/272/326/people',
+		'name' => 'Ashton Eaton',
+		'title' => '2x Olympic Gold Medalist, Decathlon'
+	],
+];

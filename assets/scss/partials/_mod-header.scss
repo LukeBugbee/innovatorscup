@@ -1,17 +1,16 @@
 .mod-header {
-	height: 100vh;
-	min-height: 100vh;
 	background: $purple;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding: 200px 0 95px 0;
 
-	@if $fixedHeader { // $fixedHeader set in _vars.scss
-		padding-top: $mobile-header-height;
-		@include bp($m) {
-			padding-top: $desktop-header-height;
-		}
+	&.full {
+		height: 100vh;
+		min-height: 100vh;
+		padding: 0;
 	}
+
 
 	.left-column {
 		max-width: 570px;
