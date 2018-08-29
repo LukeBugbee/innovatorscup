@@ -1,0 +1,28 @@
+.mod--post {
+	font-size: 18px;
+	color: $gray;
+	padding: 75px 0;
+
+	.container { overflow: visible; }
+
+	p {
+		line-height: 1.55;
+		margin-bottom: 40px;
+		font-weight: 300;
+
+		&.regular { font-weight: 400; }
+
+		a {
+			font-weight: bold;
+			text-decoration: underline;
+			color: inherit;
+		}
+	}
+
+	blockquote {
+		@include bp($m) {
+			min-width: 720px;
+			margin-left: -100px;
+		}
+	}
+}

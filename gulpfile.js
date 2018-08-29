@@ -30,6 +30,7 @@ gulp.task('sass', (cb) => {
 gulp.task('js', (cb) => {
 	pump([
 		gulp.src([
+			'node_modules/underscore/underscore-min.js',
 			'node_modules/imagesloaded/imagesloaded.pkgd.min.js',
 			'assets/js/vendors/jquery-3.2.1.min.js',
 			'assets/js/scripts.js'

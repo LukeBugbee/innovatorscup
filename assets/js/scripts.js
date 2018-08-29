@@ -1,6 +1,32 @@
 $(function() {
-	console.log('boom');
+	var throttled = _.throttle(animate_column, 100);
+
+	$('.mod--prizes .column').each(function(index, el) {
+		$(window).on('scroll', function() {
+			throttled(el);
+		});
+	});
 });
+
+function animate_column(el)
+{
+	if (isScrolledIntoView(el)) {
+		$(el).addClass('animated');
+		console.log(el, ' :', isScrolledIntoView(el));
+	} else {
+		$(el).removeClass('animated');
+	}
+}
+
+function isScrolledIntoView(elem)
+{
+	var docViewTop = $(window).scrollTop();
+	var docViewBottom = docViewTop + $(window).height();
+	var elemTop = $(elem).offset().top;
+	var elemBottom = elemTop + $(elem).height();
+
+	return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
 
 function resizeGridItem(item){
 	grid = document.getElementsByClassName('grid')[0];

@@ -1,27 +1,4 @@
-<?php include '../data.php' ?>
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-	<meta charset="utf-8">
-	<title>Innovators Cup - About 8vc</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="../assets/css/styles.min.css">
-</head>
-<body>
-
-	<header class="ic-header">
-		<a class="logo" href="/">8VC Innovators Cup</a>
-
-		<nav>
-			<?php foreach ($pages as $page): ?>
-				<a <?= (strpos($_SERVER['REQUEST_URI'], $page['slug']) !== false) ? 'class="active"' : '' ?> href="<?= $page['slug'] ?>"><?= $page['name'] ?></a>
-			<?php endforeach ?>
-			<a class="button" href="#">Apply</a>
-		</nav>
-	</header>
-
+<?php include '../header.php' ?>
 	<section class="mod mod-header mod-header--bg">
 		<div class="container">
 			<div class="left-column wysiwyg">
@@ -35,30 +12,30 @@
 		<!-- /.container -->
 	</section>
 
-	<section class="mod-line-bg">
-		<div class="container wysiwyg">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			</p>
-			<p>
-				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</div>
-		<!-- /.container -->
-	</section>
+	<article class="mod mod--post">
+		<div class="container container--small">
+			<p class="lead">Market-driven innovation is the most powerful solution to many social problems. But focusing solely on profit misses major dimensions of our moral existence. We believe that true wealth and happiness consists in serving those in need, bettering our communities, and inspiring others to do the same.</p><!-- /.lead -->
+			<hr class="divider" />
+			<p>Today we face a <a href="#">deficit of leadership</a>. North America’s best students must rise to the occasion and pursue inspirational projects that directly touch the lives of others. The goal of 8VC’s Social Innovator’s Cup is to fund, mentor, and accelerate the best entrepreneurial projects.</p>
+			<p>The 8VC Social Innovator’s Cup will fund radical new initiatives that create “shared value” by expanding opportunity for all, raising standards of living, and strengthening civic bonds. Projects that harness market forces and community compassion can improve lives at scale.</p>
 
+			<blockquote>
+				<p>"Projects that harness market forces and community compassion can improve lives at scale."</p>
+			</blockquote>
 
-	<section class="mod mod--final-cta">
-		<div class="container">
-			<h2>Let&rsquo;s build shared value together.</h2>
-			<a href="#" class="button button--extra-wide">Apply</a>
-			<small>Application deadline: October 31</small>
-		</div>
-		<!-- /.container -->
-	</section>
-	<!-- /.svg-line-bg -->
+			<p class="regular">About 8VC</p>
+
+			<p>8VC is a venture capital fund in San Francisco founded by Joe Lonsdale. We specialize in Smart Enterprise and Bio-IT investments.</p>
+
+			<p>8VC empowers entrepreneurs to unleash the forces of creative destruction on broken industries. We believe that in the coming decades, innovative technology platforms will continue to replace archaic infrastructure, promoting greater efficiency and global prosperity.</p>
+
+			<p>Our experienced team harnesses a diverse skill set to assist projects that are revolutionizing the commercial and political landscape, and driving social progress.</p>
+
+			<p class="regular">We believe that joining together and using our experience and skill set to change the world in the best way we know how creates the biggest impact.</p>
+
+			<p>Learn more about us through our <a href="#">8VC whitepapers</a> and recent <a href="#">blog posts</a>.</p>
+		</div><!-- /.container container--small -->
+	</article><!-- /.post -->
+
 
 	<?php include '../footer.php'; ?>
-
-</body>
-</html>

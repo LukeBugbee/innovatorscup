@@ -28,29 +28,4 @@
 	}
 
 	@include bp($m) { padding: 40px; }
-
-	nav {
-		font-size: 14px;
-		display: none;
-
-		@include bp($m) {
-			display: block;
-		}
-
-		a {
-			color: #888;
-			text-transform: uppercase;
-			display: block;
-
-			@include bp($m) {
-				display: inline-block;
-				margin: 0 12px;
-			}
-
-			&:hover,
-			&.active {
-				color: #fff;
-			}
-		}
-	}
 }
