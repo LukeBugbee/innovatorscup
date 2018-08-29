@@ -1,17 +1,4 @@
 <?php include '../header.php' ?>
-	<section class="mod mod-header mod-header--bg">
-		<div class="container">
-			<div class="left-column wysiwyg">
-				<h1>CREATIVE IDEAS IMPROVING LIVES</h1>
-				<p>
-					We are inspired by the following projects creating positive impact in the world today.
-				</p>
-			</div>
-			<!-- /.left-column -->
-		</div>
-		<!-- /.container -->
-	</section>
-
 	<section class="mod mod--projects">
 		<div class="container">
 			<div class="projects grid">

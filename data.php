@@ -3,19 +3,31 @@
 $pages = [
 	[
 		'slug' => 'meet-the-panel',
-		'name' => 'meet the panel'
+		'name' => 'meet the panel',
+		'headline' => 'ADVOCATING CHANGE GLOBAL IMPACT FPO',
+		'blurb' => 'Our panel consists of entrepreneurs, technologists, and industry influencers.',
+		'banner' => 'panel-bg.jpg'
 	],
 	[
 		'slug' => 'guidelines',
-		'name' => 'guidelines'
+		'name' => 'guidelines',
+		'headline' => 'CONTEST  GUIDELINES',
+		'blurb' => '',
+		'banner' => 'guidelines-bg.jpg'
 	],
 	[
 		'slug' => 'project-examples',
-		'name' => 'project examples'
+		'name' => 'project examples',
+		'headline' => 'CREATIVE IDEAS IMPROVING LIVES',
+		'blurb' => 'We are inspired by the following projects creating positive impact in the world today.',
+		'banner' => 'projects-bg.jpg'
 	],
 	[
 		'slug' => 'about-8vc',
-		'name' => 'about 8vc'
+		'name' => 'about 8vc',
+		'headline' => 'ENABLING COMMUNITY TRANSFORMATION',
+		'blurb' => '',
+		'banner' => 'about-bg.jpg'
 	]
 ];
 

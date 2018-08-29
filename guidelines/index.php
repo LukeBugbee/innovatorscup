@@ -1,16 +1,4 @@
 <?php include '../header.php' ?>
-	<section class="mod mod-header mod-header--bg">
-		<div class="container">
-			<div class="left-column wysiwyg">
-				<h1>Content guidelines</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur <strong>adipisicing elit</strong>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				</p>
-			</div>
-			<!-- /.left-column -->
-		</div>
-		<!-- /.container -->
-	</section>
 
 	<section class="mod-line-bg">
 		<div class="container wysiwyg">

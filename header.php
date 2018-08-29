@@ -21,3 +21,18 @@
 			<a class="button" href="#">Apply</a>
 		</nav>
 	</header>
+
+	<?php if (isset($currentPage)): ?>
+	<section class="mod mod-header mod-header--bg">
+		<div class="container">
+			<div class="left-column wysiwyg">
+				<h1><?= $currentPage['headline'] ?></h1>
+				<?php if ($currentPage['blurb'] !== ''): ?>
+				<p><?= $currentPage['blurb'] ?></p>
+				<?php endif ?>
+			</div>
+			<!-- /.left-column -->
+		</div>
+		<!-- /.container -->
+	</section>
+	<?php endif ?>
