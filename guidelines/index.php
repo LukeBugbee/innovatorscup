@@ -26,56 +26,5 @@
 	</div><!-- /.container container--small -->
 </article><!-- /.mod mod--post -->
 
-<section class="mod mod--prizes">
-	<div class="container">
-
-		<h2 class="mod--prizes__headline">Prizes and Benefits</h2>
-
-		<div class="column-container">
-			<div class="column">
-				<div class="column__content">
-					<img src="assets/img/icon-cashprize.svg" alt="">
-					<h3>
-						Cash Prizes <br>
-						up to $100,000
-					</h3>
-					<p>
-						We want to accelerate your organization through funding. Eight winners will be selected and cash prizes totaling $220K will be awarded.
-					</p>
-				</div><!-- /.column__content -->
-			</div>
-			<!-- /.column -->
-			<div class="column">
-				<div class="column__content">
-					<img src="assets/img/icon-handshake.svg" alt="">
-					<h3>
-						Promotion, Exposure, and Mentorship
-					</h3>
-					<p>
-						We will use our social media reach to promote and highlight winning projects.
-					</p>
-				</div><!-- /.column__content -->
-			</div>
-			<!-- /.column -->
-			<div class="column">
-				<div class="column__content">
-					<img src="assets/img/icon-megaphone.svg" alt="">
-					<h3>
-						Access to Leaders and Policy Makers
-					</h3>
-					<p>
-						Many business leaders and policy-makers in our network are excited to work with the finalists and winners of the 8VC Social Innovator’s Cup.
-					</p>
-				</div><!-- /.column__content -->
-			</div>
-			<!-- /.column -->
-		</div>
-		<!-- /.column-container -->
-
-		<a href="#" class="button button--wide">Contest Guidelines</a>
-
-	</div>
-	<!-- /.container -->
-</section>
-
+<?php include '../mod-prizes.php' ?>
 <?php include '../footer.php'; ?>

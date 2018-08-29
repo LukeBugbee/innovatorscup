@@ -69,6 +69,11 @@
 					font-weight: 300;
 				}
 			}
+
+			@include bp($m) {
+				&:nth-child(2) .column__content svg path { animation-delay: .5s }
+				&:nth-child(3) .column__content svg path { animation-delay: 1s }
+			}
 		}
 	}
 }

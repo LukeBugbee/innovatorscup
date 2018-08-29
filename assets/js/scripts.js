@@ -10,6 +10,8 @@ var Prizes = (function() {
 
 	function init()
 	{
+		if ($('.mod--prizes .column').length === 0) { return; }
+
 		throttled = _.throttle(animate_column, 100);
 		$prizes = $('.mod--prizes .column');
 
@@ -25,22 +27,21 @@ var Prizes = (function() {
 		});
 	}
 
+	function isScrolledIntoView(elem)
+	{
+		var docViewTop = $(window).scrollTop();
+		var docViewBottom = docViewTop + $(window).height();
+		var elemTop = $(elem).offset().top;
+		var elemBottom = elemTop + $(elem).height();
+
+		return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+	}
+
 	return {
 		init:init
 	};
 }());
 
-
-
-function isScrolledIntoView(elem)
-{
-	var docViewTop = $(window).scrollTop();
-	var docViewBottom = docViewTop + $(window).height();
-	var elemTop = $(elem).offset().top;
-	var elemBottom = elemTop + $(elem).height();
-
-	return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-}
 
 function resizeGridItem(item){
 	grid = document.getElementsByClassName('grid')[0];
