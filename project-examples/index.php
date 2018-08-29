@@ -5,7 +5,7 @@
 				<?php foreach ($projects as $project): ?>
 				<div class="project item">
 					<div class="content">
-						<figure class="project__figure" style="background-image: url(/assets/img/projects/<?= $project['logo'] ?>)"></figure><!-- /.project__figure -->
+						<figure class="project__figure project__figure--<?= str_replace('.png', '', $project['logo']) ?>" style="background-image: url(/assets/img/projects/<?= $project['logo'] ?>)"></figure><!-- /.project__figure -->
 						<article class="project__content">
 							<p>
 								<strong class="white"><?= $project['name'] ?></strong> | 

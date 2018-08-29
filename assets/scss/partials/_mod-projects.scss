@@ -11,6 +11,34 @@
 			grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
 		}
 
+		&--list {
+			display: block;
+
+			.project {
+				margin-bottom: 40px;
+
+				&:last-child { margin-bottom: 0; }
+
+				@include bp($m) {
+					.content {
+						display: flex;
+						flex-flow: row nowrap;
+
+						.project__figure {
+							min-width: 23%;
+							padding-bottom: 23%;
+							background-size: contain;
+
+							&--strive { background-color: #82a5c8; }
+							&--thorn { background-color: #ff7463; }
+							&--onehope { background-color: #4ac9d7; }
+							&--prime { background-color: #019bdf; }
+						}
+					}
+				}
+			}
+		}
+
 		.project {
 			&__figure {
 				padding-bottom: 42.16%;
