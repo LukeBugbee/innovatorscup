@@ -37,7 +37,6 @@ if ($_SERVER['REQUEST_URI'] !== '/') {
 	}))[0];
 }
 
-
 $panelMembers = [
 	[
 		'img' => 'https://placeimg.com/272/326/people',
@@ -84,4 +83,31 @@ $panelMembers = [
 		'name' => 'Ashton Eaton',
 		'title' => '2x Olympic Gold Medalist, Decathlon'
 	],
+];
+
+$projects = [
+	[
+		'name' => 'Strive for College',
+		'url' => 'striveforcollege.org',
+		'logo' => 'strive.png',
+		'blurb' => 'Strive for College uses technology deliver 1-on-1 mentoring sessions to financially handicapped students. Strive pairs formerly underprivileged people who beat the odds and attended great universities with similarly positioned high school students to whom they can offer advice. Strive is an excellent example of a project with high “return on investment” (ROI) - experienced, successful volunteers can drastically improve student outcomes in short amounts of time.'
+	],
+	[
+		'name' => 'Thorn',
+		'url' => 'wearethorn.org',
+		'logo' => 'thorn.png',
+		'blurb' => 'Ashton Kutcher’s Thorn harnesses a technology called Spotlight to identify and rescue victims of sexual trafficking. Thorn serves over 5,000 law enforcement officers in all 50 states and over 18 countries, and represents the tireless efforts of 20+ international NGO partners, 40+ technology company partners, and hundreds of volunteers.'
+	],
+	[
+		'name' => 'Prime5',
+		'url' => 'prime5.org',
+		'logo' => 'prime.png',
+		'blurb' => 'Deion Sanders started Prime5 to address inner-city problems including debt, chronic unemployment, educational failure, family breakdown, addiction and trauma. Prime5 has been active in Dallas, TX, where it works with a variety of “catalyst” community organizations which help members of underserved communities achieve financial empowerment, employment, and entrepreneurship, conduct programming for at-risk youth, and establish recovery communities.'
+	],
+	[
+		'name' => 'OneHope Foundation',
+		'url' => 'onehopefoundation.org',
+		'logo' => 'onehope.png',
+		'blurb' => 'The OneHope Foundation is a vineyard and wine vendor that pledges to give a fixed percentage of its earnings to worthy causes. OneHope’s cause-centric commerce model has funded the planting of 52,011 trees in reforestation projects, provided 16,719 people with clean drinking water, provided 1,088,492 hungry children with healthy meals, and aided a variety of other crucial humanitarian projects.'
+	]
 ];

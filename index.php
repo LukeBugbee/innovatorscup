@@ -7,7 +7,7 @@
 				Innovator&rsquo;s Cup
 			</h1>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur <strong>adipisicing elit</strong>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Entrepreneurs that tap into the energy and compassion that animate American communities can solve major social challenges. That’s why we’re deploying $220,000 to innovative student projects that lift up the world and serve those in need.
 			</p>
 		</div>
 		<!-- /.left-column -->
@@ -18,10 +18,10 @@
 <section class="mod-line-bg">
 	<div class="container wysiwyg">
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			The 8VC Social Innovator’s Cup is designed to encourage the best and brightest North American college students to create original projects that serve those in need.
 		</p>
 		<p>
-			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Our competition will highlight high-impact contrarian projects inspired by a sense of civic duty and oriented towards underprivileged communities.
 		</p>
 	</div>
 	<!-- /.container -->
@@ -41,20 +41,7 @@
 						up to $100,000
 					</h3>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-					</p>
-				</div><!-- /.column__content -->
-			</div>
-			<!-- /.column -->
-			<div class="column">
-				<div class="column__content">
-					<img src="assets/img/icon-megaphone.svg" alt="">
-					<h3>
-						Cash Prizes <br>
-						up to $100,000
-					</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+						We want to accelerate your organization through funding. Eight winners will be selected and cash prizes totaling $220K will be awarded.
 					</p>
 				</div><!-- /.column__content -->
 			</div>
@@ -63,11 +50,22 @@
 				<div class="column__content">
 					<img src="assets/img/icon-handshake.svg" alt="">
 					<h3>
-						Cash Prizes <br>
-						up to $100,000
+						Promotion, Exposure, and Mentorship
 					</h3>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+						We will use our social media reach to promote and highlight winning projects.
+					</p>
+				</div><!-- /.column__content -->
+			</div>
+			<!-- /.column -->
+			<div class="column">
+				<div class="column__content">
+					<img src="assets/img/icon-megaphone.svg" alt="">
+					<h3>
+						Access to Leaders and Policy Makers
+					</h3>
+					<p>
+						Many business leaders and policy-makers in our network are excited to work with the finalists and winners of the 8VC Social Innovator’s Cup.
 					</p>
 				</div><!-- /.column__content -->
 			</div>
@@ -80,6 +78,5 @@
 	</div>
 	<!-- /.container -->
 </section>
-<!-- /.columns columns--3 -->
 
 <?php include 'footer.php'; ?>

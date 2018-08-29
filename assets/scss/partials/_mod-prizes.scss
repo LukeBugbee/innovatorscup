@@ -45,13 +45,17 @@
 				}
 
 				h3 {
-					color: #000;
+					color: $almostBlack;
 					font-weight: 900;
 					font-size: 21px;
 					margin-bottom: 40px;
 				}
 
-				p { font-size: 18px; }
+				p {
+					color: $almostBlack;
+					font-size: 18px;
+					font-weight: 300;
+				}
 			}
 		}
 	}
