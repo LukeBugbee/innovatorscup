@@ -5,7 +5,7 @@
 			<div class="panel">
 				<?php foreach ($panelMembers as $member): ?>
 					<div class="panel__member">
-						<figure style="background-image: url(<?= $member['img'] ?>);"></figure>
+						<figure style="background-image: url(/assets/img/panel/<?= $member['img'] ?>);"></figure>
 						<div class="content">
 							<h2><?= $member['name'] ?></h2>
 							<p><?= $member['title'] ?></p>

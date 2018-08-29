@@ -39,49 +39,49 @@ if ($_SERVER['REQUEST_URI'] !== '/') {
 
 $panelMembers = [
 	[
-		'img' => 'https://placeimg.com/272/326/people',
+		'img' => 'ashton.jpg',
 		'name' => 'Ashton Eaton',
 		'title' => '2x Olympic Gold Medalist, Decathlon'
 	],
 	[
-		'img' => 'https://placeimg.com/272/326/people',
-		'name' => 'Ashton Eaton',
-		'title' => '2x Olympic Gold Medalist, Decathlon'
+		'img' => 'bhaskar.jpg',
+		'name' => 'Bhaskar Ghosh',
+		'title' => 'Partner and CTO, 8VC'
 	],
 	[
-		'img' => 'https://placeimg.com/272/326/people',
-		'name' => 'Ashton Eaton',
-		'title' => '2x Olympic Gold Medalist, Decathlon'
+		'img' => 'jared.jpg',
+		'name' => 'Jared Leto',
+		'title' => 'Actor'
 	],
 	[
-		'img' => 'https://placeimg.com/272/326/people',
-		'name' => 'Ashton Eaton',
-		'title' => '2x Olympic Gold Medalist, Decathlon'
+		'img' => 'jerry.jpg',
+		'name' => 'Jerry Yang',
+		'title' => 'Founder, AME Cloud Ventures <br /> Founder, Yahoo!'
 	],
 	[
-		'img' => 'https://placeimg.com/272/326/people',
-		'name' => 'Ashton Eaton',
-		'title' => '2x Olympic Gold Medalist, Decathlon'
+		'img' => 'joe.jpg',
+		'name' => 'Joe Lonsdale',
+		'title' => 'General Partner, 8VC'
 	],
 	[
-		'img' => 'https://placeimg.com/272/326/people',
-		'name' => 'Ashton Eaton',
-		'title' => '2x Olympic Gold Medalist, Decathlon'
+		'img' => 'john.jpg',
+		'name' => 'John Mack',
+		'title' => 'Former CEO, Morgan Stanley <br /> Former CEO, Credit Suisse'
 	],
 	[
-		'img' => 'https://placeimg.com/272/326/people',
-		'name' => 'Ashton Eaton',
-		'title' => '2x Olympic Gold Medalist, Decathlon'
+		'img' => 'kimmy.jpg',
+		'name' => 'Kimmy Scotti',
+		'title' => 'Partner, 8VC'
 	],
 	[
-		'img' => 'https://placeimg.com/272/326/people',
-		'name' => 'Ashton Eaton',
-		'title' => '2x Olympic Gold Medalist, Decathlon'
+		'img' => 'leo.jpg',
+		'name' => 'Leonardo Decaprio',
+		'title' => 'Actor'
 	],
 	[
-		'img' => 'https://placeimg.com/272/326/people',
-		'name' => 'Ashton Eaton',
-		'title' => '2x Olympic Gold Medalist, Decathlon'
+		'img' => 'scott.jpg',
+		'name' => 'Scott Cook',
+		'title' => 'Founder, Intuit <br />Early Board Member, eBay <br />Board Member, P&G'
 	],
 ];
 
