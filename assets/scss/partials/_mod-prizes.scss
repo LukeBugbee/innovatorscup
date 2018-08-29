@@ -36,12 +36,24 @@
 					margin-bottom: 65px;
 				}
 
-				img {
+				svg {
 					width: 100%;
 					position: absolute;
 					top: 40px;
 					left: 0;
 					right: 0;
+
+					path {
+						fill:none;
+						stroke: $purple;
+						stroke-miterlimit:10;
+						stroke-dasharray: 1800px;
+						stroke-dashoffset:1800px;
+
+						&.animated {
+							animation:draw 5s ease forwards;
+						}
+					}
 				}
 
 				h3 {
@@ -59,4 +71,9 @@
 			}
 		}
 	}
+}
+
+@keyframes draw {
+	from {stroke-dashoffset:1800;}
+	to {stroke-dashoffset:0;}
 }

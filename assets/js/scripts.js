@@ -1,22 +1,36 @@
 $(function() {
-	var throttled = _.throttle(animate_column, 100);
-
-	$('.mod--prizes .column').each(function(index, el) {
-		$(window).on('scroll', function() {
-			throttled(el);
-		});
-	});
+	Prizes.init();
 });
 
-function animate_column(el)
-{
-	if (isScrolledIntoView(el)) {
-		$(el).addClass('animated');
-		console.log(el, ' :', isScrolledIntoView(el));
-	} else {
-		$(el).removeClass('animated');
+var Prizes = (function() {
+	'use strict';
+
+	var $prizes;
+	var throttled;
+
+	function init()
+	{
+		throttled = _.throttle(animate_column, 100);
+		$prizes = $('.mod--prizes .column');
+
+		$(window).on('scroll', throttled);
 	}
-}
+
+	function animate_column(el)
+	{
+		$prizes.each(function(index, el) {
+			if (isScrolledIntoView(el)) {
+				$(el).find('path').addClass('animated');
+			}
+		});
+	}
+
+	return {
+		init:init
+	};
+}());
+
+
 
 function isScrolledIntoView(elem)
 {
