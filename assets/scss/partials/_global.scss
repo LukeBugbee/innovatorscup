@@ -51,6 +51,8 @@ button {
 	color: #fff;
 	transition: .25s ease;
 	font-size: 15px;
+	max-width: 100%;
+	text-align: center;
 
 	&:hover {
 		background-color: #fff;
@@ -58,7 +60,10 @@ button {
 	}
 
 	&--wide { padding: 20px 95px; }
-	&--extra-wide { padding: 20px 185px; }
+	&--extra-wide {
+		padding: 20px 95px;
+		@include bp($m) { padding: 20px 185px; }
+	}
 }
 
 .logo {

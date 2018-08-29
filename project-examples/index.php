@@ -9,7 +9,7 @@
 						<article class="project__content">
 							<p>
 								<strong class="white"><?= $project['name'] ?></strong> | 
-								<a href="<?= $project['url'] ?>"><?= $project['url'] ?></a>
+								<a href="http://<?= $project['url'] ?>" target="_blank"><?= $project['url'] ?></a>
 							</p>
 							<p><?= $project['blurb'] ?></p>
 						</article><!-- /.project__content -->
