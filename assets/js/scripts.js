@@ -1,5 +1,6 @@
 $(function() {
 	Prizes.init();
+	GridItems.init();
 });
 
 var Prizes = (function() {
@@ -42,31 +43,50 @@ var Prizes = (function() {
 	};
 }());
 
+var GridItems = (function() {
+	'use strict';
 
-function resizeGridItem(item){
-	grid = document.getElementsByClassName('grid')[0];
-	rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
-	rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
-	rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
-	item.style.gridRowEnd = "span "+rowSpan;
-}
+	var grid;
+	var items;
+	var debounced;
 
-function resizeAllGridItems(){
-	allItems = document.getElementsByClassName("item");
-	for(x=0;x<allItems.length;x++){
-		resizeGridItem(allItems[x]);
+	function init() {
+		if ($('.grid').length === 0) { return; }
+
+		grid = document.querySelector('.grid');
+		items = grid.querySelectorAll('.item');
+		debounced = _.debounce(resize_all_items, 100);
+
+		items.forEach(function(el) {
+			imagesLoaded(el, resize_instance);
+		});
+
+		$(window).on('load', resize_all_items);
+		$(window).on('resize', debounced);
 	}
-}
 
-function resizeInstance(instance){
-	item = instance.elements[0];
-	resizeGridItem(item);
-}
+	function resize_grid_item(item)
+	{
+		var rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+		var rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
+		var rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
+		item.style.gridRowEnd = "span "+rowSpan;
+	}
 
-window.onload = resizeAllGridItems();
-window.addEventListener("resize", resizeAllGridItems);
+	function resize_all_items()
+	{
+		items.forEach(function(el) {
+			resize_grid_item(el);
+		});
+	}
 
-allItems = document.getElementsByClassName("item");
-for(x=0;x<allItems.length;x++){
-	imagesLoaded( allItems[x], resizeInstance);
-}
+	function resize_instance(instance)
+	{
+		var item = instance.elements[0];
+		resize_grid_item(item);
+	}
+
+	return {
+		init:init
+	};
+}());
