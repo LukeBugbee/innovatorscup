@@ -22,7 +22,7 @@
 	</small>
 </footer>
 
-<script src="assets/js/scripts.min.js"></script>
+<script src="/assets/js/scripts.min.js"></script>
 
 </body>
 </html>
