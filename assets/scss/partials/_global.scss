@@ -23,6 +23,8 @@ img {
 a {
 	transition: 0.3s ease;
 	text-decoration: none;
+
+	&:hover { color: #fff !important; }
 }
 
 .container {
@@ -53,11 +55,9 @@ button {
 	font-size: 15px;
 	max-width: 100%;
 	text-align: center;
+	opacity: .7;
 
-	&:hover {
-		background-color: #fff;
-		color: $purple;
-	}
+	&:hover { opacity: 1; }
 
 	&--wide { padding: 20px 95px; }
 	&--extra-wide {

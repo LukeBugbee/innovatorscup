@@ -31,12 +31,6 @@ $pages = [
 	]
 ];
 
-if ($_SERVER['REQUEST_URI'] !== '/') {
-	$currentPage = array_values(array_filter($pages, function($page) {
-		return strpos($_SERVER['REQUEST_URI'], $page['slug']) !== false;
-	}))[0];
-}
-
 $panelMembers = [
 	[
 		'img' => 'ashton.jpg',
@@ -111,3 +105,9 @@ $projects = [
 		'blurb' => 'The OneHope Foundation is a vineyard and wine vendor that pledges to give a fixed percentage of its earnings to worthy causes. OneHope’s cause-centric commerce model has funded the planting of 52,011 trees in reforestation projects, provided 16,719 people with clean drinking water, provided 1,088,492 hungry children with healthy meals, and aided a variety of other crucial humanitarian projects.'
 	]
 ];
+
+if ($_SERVER['REQUEST_URI'] !== '/') {
+	$currentPage = array_values(array_filter($pages, function($page) {
+		return strpos($_SERVER['REQUEST_URI'], $page['slug']) !== false;
+	}))[0];
+}
