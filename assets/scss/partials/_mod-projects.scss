@@ -23,6 +23,12 @@
 					.content {
 						display: flex;
 						flex-flow: row nowrap;
+						transition: .3s ease;
+
+						&:hover {
+							cursor: pointer;
+							transform: scale(1.15) translateY(-15px);
+						}
 
 						.project__figure {
 							min-width: 23%;
