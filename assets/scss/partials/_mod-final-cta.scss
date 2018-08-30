@@ -4,11 +4,12 @@
 	padding-top: 100px;
 	padding-bottom: 250px;
 	text-align: center;
-	background-image: url(../img/illustration-people.svg);
+	// background-image: url(../img/illustration-people.svg);
 	background-size: 100% auto;
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	border-bottom: 40px solid $darkPurple;
+	position: relative;
 
 	h2 {
 		font-size: 24px;
@@ -22,5 +23,26 @@
 		display: block;
 		font-size: 18px;
 		font-weight: 300;
+	}
+
+	svg {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+		path {
+			fill: none !important;
+			stroke: #c8c8c8 !important;
+			stroke-width: 0.6px !important;
+			stroke-dasharray: 8000px;
+			stroke-dashoffset: 8000px;
+
+			&:last-of-type { stroke-width: 1px !important; }
+
+			&.animated {
+				animation: drawFinalCta 5s ease forwards;
+			}
+		}
 	}
 }

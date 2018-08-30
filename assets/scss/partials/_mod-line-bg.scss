@@ -1,9 +1,10 @@
 .mod-line-bg {
 	padding: 170px 0 270px;
-	background-image: url(../img/line-man.svg);
+	// background-image: url(../img/line-man.svg);
 	background-size: 100% auto;
 	background-position: bottom right;
 	background-repeat: no-repeat;
+	position: relative;
 
 	.container {
 		max-width: 570px;
@@ -12,6 +13,27 @@
 	p {
 		line-height: 1.71;
 		margin-bottom: 40px;
+	}
+
+	svg {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+		path {
+			stroke-dasharray: 6000px;
+			stroke-dashoffset: 6000px;
+
+			&.animated {
+				animation: drawLineMan 2.5s ease forwards;
+			}
+		}
+
+		@keyframes drawLineMan {
+			from { stroke-dashoffset: 6000px; }
+			to { stroke-dashoffset: 0; }
+		}
 	}
 
 }

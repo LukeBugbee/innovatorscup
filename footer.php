@@ -7,6 +7,8 @@
 		<small>Application deadline: October 31</small>
 	</div>
 	<!-- /.container -->
+
+	<?php include 'final-cta-svg.php' ?>
 </section>
 <!-- /.svg-line-bg -->
 

@@ -1,27 +1,27 @@
 $(function() {
-	Prizes.init();
+	SVGAnimations.init();
 	GridItems.init();
 });
 
-var Prizes = (function() {
+var SVGAnimations = (function() {
 	'use strict';
 
-	var $prizes;
+	var $svgs;
 	var throttled;
 
 	function init()
 	{
-		if ($('.mod--prizes .column').length === 0) { return; }
+		if ($('svg.to-animate').length === 0) { return; }
 
-		throttled = _.throttle(animate_column, 100);
-		$prizes = $('.mod--prizes .column');
+		throttled = _.throttle(animate_svg, 100);
+		$svgs = $('svg.to-animate');
 
 		$(window).on('scroll', throttled);
 	}
 
-	function animate_column(el)
+	function animate_svg(el)
 	{
-		$prizes.each(function(index, el) {
+		$svgs.each(function(index, el) {
 			if (isScrolledIntoView(el)) {
 				$(el).find('path').addClass('animated');
 			}
