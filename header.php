@@ -16,7 +16,7 @@
 
 		<nav class="global-nav">
 			<?php foreach ($pages as $page): ?>
-				<a <?= (strpos($_SERVER['REQUEST_URI'], $page['slug']) !== false) ? 'class="active"' : '' ?> href="<?= $page['slug'] ?>"><?= $page['name'] ?></a>
+				<a <?= (strpos($_SERVER['REQUEST_URI'], $page['slug']) !== false) ? 'class="active"' : '' ?> href="<?= '/' . $page['slug'] ?>"><?= $page['name'] ?></a>
 			<?php endforeach ?>
 			<a class="button" href="#">Apply</a>
 		</nav>
