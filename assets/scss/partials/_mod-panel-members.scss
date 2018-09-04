@@ -4,10 +4,20 @@
 	.panel {
 		@include pxcols(30px, 30px, 2);
 
+		@include bp($m) { padding: 50px; }
+
 		&__member {
 			display: flex;
 			flex-flow: row nowrap;
 			min-width: 50%;
+			transition: .45s ease;
+
+			&:hover {
+				cursor: pointer;
+				z-index: 1000;
+				transform: scale(1.1) translateY(-15px);
+				box-shadow: 30px 30px 35px rgba(#000, .25);
+			}
 
 			figure {
 				width: 48%;
