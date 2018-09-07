@@ -107,6 +107,7 @@ var SectionAnimations = (function() {
 		throttled = _.throttle(animate_sections, 100);
 		$sections = $('.animate');
 
+		throttled();
 		$(window).on('scroll', throttled);
 	}
 
@@ -124,6 +125,8 @@ var SectionAnimations = (function() {
 		var docViewTop = $(window).scrollTop();
 		var elemTop = $(elem).offset().top - docViewTop;
 		var trigger = $(window).height() * 0.75;
+
+		console.log(elemTop, trigger);
 
 		return (elemTop < trigger);
 	}
