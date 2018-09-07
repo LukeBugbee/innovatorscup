@@ -36,4 +36,14 @@
 		}
 	}
 
+	@include bpmax($m){
+		font-size: 21px;
+
+		svg {
+			width: 1000px;
+    		right: -20%;
+			left: auto;
+		}
+	}
+
 }

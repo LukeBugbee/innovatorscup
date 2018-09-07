@@ -38,5 +38,12 @@
 			min-width: 720px;
 			margin-left: -100px;
 		}
+
+		@include bpmax($m){
+			line-height: 1;
+			* {
+				line-height: 1;
+			}
+		}
 	}
 }

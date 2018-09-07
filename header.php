@@ -9,8 +9,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900|Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/css/styles.min.css">
 </head>
-<body>
 
+<?php
+	$home = false;
+	if( $_SERVER['REQUEST_URI'] == '/' ) {
+		$home = true;
+	}
+?>
+
+<body class="<?php if($home){ echo 'home'; } ?>">
 	<header class="ic-header">
 		<a class="logo" href="/">8VC Innovators Cup</a>
 

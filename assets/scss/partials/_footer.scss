@@ -16,4 +16,10 @@
 		text-transform: uppercase;
 		color: $gray;
 	}
+
+	@include bpmax($m){
+		.logo {
+			margin-bottom: 20px;
+		}
+	}
 }
