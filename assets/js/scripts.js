@@ -126,8 +126,6 @@ var SectionAnimations = (function() {
 		var elemTop = $(elem).offset().top - docViewTop;
 		var trigger = $(window).height() * 0.75;
 
-		console.log(elemTop, trigger);
-
 		return (elemTop < trigger);
 	}
 
