@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <section class="mod-header mod-header--bg full">
 	<div class="container">
-		<div class="left-column wysiwyg">
+		<div class="left-column wysiwyg animate animate--fade-in">
 			<h1>
 				8VC Social <br>
 				Innovator&rsquo;s Cup
