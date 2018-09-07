@@ -1,7 +1,7 @@
 <?php include '../header.php' ?>
 
 <article class="mod mod--post">
-	<div class="container container--small">
+	<div class="container container--small animate animate--fade-in">
 		<p class="lead">We are looking for projects that quantifiably  improve the lives of substantial numbers of people in underprivileged communities. Projects will be judged on the basis of their practicality, how many people they affect, and the degree to which they affect them.</p><!-- /.lead -->
 		<p class="lead">Projects may leverage technology to achieve their goals, but we understand the value of galvanic leadership, cleverly designed processes, and other ways to improve the lives of others.</p><!-- /.lead -->
 		<hr class="divider" />
