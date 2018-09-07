@@ -1,7 +1,8 @@
 <?php include '../header.php' ?>
 
 	<article class="mod mod--post">
-		<div class="container container--small">
+
+		<div class="container container--small animate animate--fade-in">
 			<p class="lead">Market-driven innovation is the most powerful solution to many social problems. But focusing solely on profit misses major dimensions of our moral existence. We believe that true wealth and happiness consists in serving those in need, bettering our communities, and inspiring others to do the same.</p><!-- /.lead -->
 			<hr class="divider" />
 			<p>Today we face a <a href="#">deficit of leadership</a>. North America’s best students must rise to the occasion and pursue inspirational projects that directly touch the lives of others. The goal of 8VC’s Social Innovator’s Cup is to fund, mentor, and accelerate the best entrepreneurial projects.</p>

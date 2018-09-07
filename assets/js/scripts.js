@@ -1,6 +1,7 @@
 $(function() {
 	SVGAnimations.init();
 	GridItems.init();
+	SectionAnimations.init();
 });
 
 var SVGAnimations = (function() {
@@ -85,6 +86,46 @@ var GridItems = (function() {
 	{
 		var item = instance.elements[0];
 		resize_grid_item(item);
+	}
+
+	return {
+		init:init
+	};
+}());
+
+
+var SectionAnimations = (function() {
+	'use strict';
+
+	var $sections;
+	var throttled;
+
+	function init()
+	{
+		if ($('.animate').length === 0) { return; }
+
+		throttled = _.throttle(animate_sections, 100);
+		$sections = $('.animate');
+
+		$(window).on('scroll', throttled);
+	}
+
+	function animate_sections(el)
+	{
+		$sections.each(function(index, el) {
+			if (isScrolledIntoView(el)) {
+				$(el).addClass('animated').removeClass('animate');
+			}
+		});
+	}
+
+	function isScrolledIntoView(elem)
+	{
+		var docViewTop = $(window).scrollTop();
+		var elemTop = $(elem).offset().top - docViewTop;
+		var trigger = $(window).height() * 0.75;
+
+		return (elemTop < trigger);
 	}
 
 	return {

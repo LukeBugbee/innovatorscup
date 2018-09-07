@@ -1,0 +1,14 @@
+.animate--fade-in {
+	transition: $speed-slow $easing;
+	will-change: opacity, transform;
+
+	&.animate {
+		opacity: 0;
+		transform: translate3d(0,50px,0);
+	}
+
+	&.animated {
+		opacity: 1;
+		transform: translate3d(0,0,0);
+	}
+}
