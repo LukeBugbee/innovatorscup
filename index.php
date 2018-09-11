@@ -10,7 +10,7 @@
 				Innovator&rsquo;s Cup
 			</h1>
 			<p>
-				Entrepreneurs that tap into the energy and compassion that animate American communities can solve major social challenges. That’s why we’re deploying $220,000 to innovative student projects that lift up the world and serve those in need.
+				Entrepreneurs that tap into the energy and compassion that animate American communities can solve major social challenges. That’s why we’re deploying <strong>over $1 million</strong> in the coming years to innovative student projects that lift up the world and serve those in need.
 			</p>
 		</div>
 		<!-- /.left-column -->

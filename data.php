@@ -35,47 +35,75 @@ $panelMembers = [
 	[
 		'img' => 'ashton.jpg',
 		'name' => 'Ashton Eaton',
-		'title' => '2x Olympic Gold Medalist, Decathlon'
+		'title' => '2x Olympic Gold Medalist, Decathlon',
+		'link' => 'https://en.wikipedia.org/wiki/Ashton_Eaton'
+	],
+
+	[
+		'img' => '',
+		'name' => 'Ashton Kutcher',
+		'title' => 'Actor<br>Founder, Thorn<br>General Partner, Sound Ventures',
+		'link' => 'https://twitter.com/aplusk'
 	],
 	[
 		'img' => 'bhaskar.jpg',
 		'name' => 'Bhaskar Ghosh',
-		'title' => 'Partner and CTO, 8VC'
+		'title' => 'Partner and CTO, 8VC',
+		'link' => 'https://8vc.com/team/bhaskar-ghosh/'
 	],
-	[
-		'img' => 'jared.jpg',
-		'name' => 'Jared Leto',
-		'title' => 'Actor'
-	],
+	// [
+	// 	'img' => 'jared.jpg',
+	// 	'name' => 'Jared Leto',
+	// 	'title' => 'Actor',
+	// 	'link' => 'https://8vc.com/team/bhaskar-ghosh/'
+	// ],
 	[
 		'img' => 'jerry.jpg',
 		'name' => 'Jerry Yang',
-		'title' => 'Founder, AME Cloud Ventures <br /> Founder, Yahoo!'
+		'title' => 'Founder, AME Cloud Ventures <br /> Founder, Yahoo!',
+		'link' => 'https://en.wikipedia.org/wiki/Jerry_Yang'
 	],
 	[
 		'img' => 'joe.jpg',
 		'name' => 'Joe Lonsdale',
-		'title' => 'General Partner, 8VC'
+		'title' => 'General Partner, 8VC',
+		'link' => 'https://8vc.com/team/joe-lonsdale/'
 	],
 	[
 		'img' => 'john.jpg',
 		'name' => 'John Mack',
-		'title' => 'Former CEO, Morgan Stanley <br /> Former CEO, Credit Suisse'
+		'title' => 'Former CEO, Morgan Stanley <br /> Former CEO, Credit Suisse',
+		'link' => 'https://en.wikipedia.org/wiki/John_J._Mack'
+	],
+	[
+		'img' => '',
+		'name' => 'Julie Cordua',
+		'title' => 'CEO at Thorn: Digital Defenders of Children',
+		'link' => 'https://www.wearethorn.org/about-our-fight-against-sexual-exploitation-of-children/staff/'
 	],
 	[
 		'img' => 'kimmy.jpg',
 		'name' => 'Kimmy Scotti',
-		'title' => 'Partner, 8VC'
+		'title' => 'Partner, 8VC',
+		'link' => 'https://8vc.com/team/kimmy-scotti/'
 	],
+	// [
+	// 	'img' => 'leo.jpg',
+	// 	'name' => 'Leonardo Decaprio',
+	// 	'title' => 'Actor',
+	// 	'link' => ''
+	// ],
 	[
-		'img' => 'leo.jpg',
-		'name' => 'Leonardo Decaprio',
-		'title' => 'Actor'
+		'img' => '',
+		'name' => 'Phaedra Ellis-Lamkins',
+		'title' => 'Co-founder at Promise',
+		'link' => 'https://joinpromise.com/'
 	],
 	[
 		'img' => 'scott.jpg',
 		'name' => 'Scott Cook',
-		'title' => 'Founder, Intuit <br />Early Board Member, eBay <br />Board Member, P&G'
+		'title' => 'Founder, Intuit <br />Early Board Member, eBay <br />Board Member, P&G',
+		'link' => 'https://www.intuit.com/company/executives/'
 	],
 ];
 
