@@ -30,7 +30,10 @@
 	</header>
 
 	<?php if (isset($currentPage)): ?>
-	<section class="mod mod-header mod-header--bg" style="background-image: linear-gradient(to right, rgba(127,20,236,0.3) 0%, transparent 100%), url(/assets/img/<?= $currentPage['banner'] ?>);">
+	<section class="mod mod-header mod-header--bg">
+
+		<div class="background parallax" style="background-image: linear-gradient(to right, rgba(127,20,236,0.3) 0%, transparent 100%), url(/assets/img/<?= $currentPage['banner'] ?>);"></div>
+
 		<div class="container">
 			<div class="left-column wysiwyg">
 				<h1><?= $currentPage['headline'] ?></h1>

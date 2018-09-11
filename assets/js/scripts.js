@@ -173,10 +173,7 @@ var PXParallax = (function() {
 			var $t = $(this),
 				offSet = $t.offset().top - distanceScrolled,
 				dist = Math.floor(offSet * speed / 100);
-
 				dist = dist < -max_offset ? -max_offset : dist;
-
-				console.log(dist);
 
 			$t.css({
 				'-webkit-transform' : 'translate3d(0, '+dist+'px, 0)',
