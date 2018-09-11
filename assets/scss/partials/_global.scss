@@ -85,9 +85,15 @@ button {
 	background-size: contain;
 	background-position: top left;
 	background-repeat: no-repeat;
+	opacity: 0.8;
+	transition: opacity $speed $easing;
 
 	@include retina() {
 		background-image: url(../img/8vc-innovate-logo@2x.png);
+	}
+
+	&:hover {
+		opacity: 1;
 	}
 }
 
@@ -139,6 +145,14 @@ blockquote {
 		&:hover,
 		&.active {
 			color: #fff;
+		}
+	}
+
+	.button {
+		border-color: #888;
+
+		&:hover {
+			border-color: #fff;
 		}
 	}
 }
