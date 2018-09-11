@@ -29,3 +29,59 @@
 
 	@include bp($m) { padding: 40px; }
 }
+
+.mobile-menu-button {
+	width: 25px;
+	height: 16px;
+	cursor: pointer;
+	transition: border-color $speed $easing;
+	@include z(mobile-menu-button);
+	position: relative;
+
+	&:before,
+	&:after,
+	span {
+		content: '';
+		width: 100%;
+		height: 2px;
+		background: #888;
+		position: absolute;
+		left: 0;
+		transition: all $speed $easing;
+		transform-origin: center;
+	}
+
+	&:before {
+		top: 0;
+	}
+
+	&:after {
+		bottom: 0;
+	}
+
+	span {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	@include bp($ml) {
+		display: none;
+	}
+
+	&.open {
+
+		&:before {
+			transform: rotate3d(0,0,1, 45deg) translateY(-50%);
+			top: 50%;
+		}
+
+		&:after {
+			transform: rotate3d(0,0,1, -45deg) translateY(50%);
+			bottom: 50%;
+		}
+
+		span {
+			opacity: 0;
+		}
+	}
+}

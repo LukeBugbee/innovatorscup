@@ -21,6 +21,10 @@
 	<header class="ic-header">
 		<a class="logo" href="/">8VC Innovators Cup</a>
 
+		<div class="mobile-menu-button">
+			<span></span>
+		</div>
+
 		<nav class="global-nav">
 			<?php foreach ($pages as $page): ?>
 				<a <?= (strpos($_SERVER['REQUEST_URI'], $page['slug']) !== false) ? 'class="active"' : '' ?> href="<?= '/' . $page['slug'] ?>"><?= $page['name'] ?></a>

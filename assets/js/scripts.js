@@ -3,6 +3,7 @@ $(function() {
 	GridItems.init();
 	SectionAnimations.init();
 	PXParallax.init();
+	PXHeader.init();
 });
 
 var SVGAnimations = (function() {
@@ -194,6 +195,37 @@ var PXParallax = (function() {
 	        requestAnimationFrame(update);
 	    }
 	    ticking = true;
+	}
+
+	return {
+		init:init
+	};
+}());
+
+var PXHeader = (function() {
+	'use strict';
+
+	var $menu,
+		$menuButton;
+
+	function init() {
+
+		$menu = $('.global-nav'),
+		$menuButton = $('.mobile-menu-button');
+
+		events();
+	}
+
+	function events() {
+
+		$menuButton.click(function(){
+			if($menu.hasClass('open')){
+				$menu.add($menuButton).removeClass('open');
+			} else {
+				$menu.add($menuButton).addClass('open');
+			}
+		});
+
 	}
 
 	return {
