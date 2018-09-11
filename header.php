@@ -19,7 +19,7 @@
 
 <body class="<?php if($home){ echo 'home'; } ?>">
 	<header class="ic-header">
-		<a class="logo" href="/">8VC Innovators Cup</a>
+		<a class="logo logo--header" href="/">8VC Innovators Cup</a>
 
 		<div class="mobile-menu-button">
 			<span></span>

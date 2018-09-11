@@ -101,8 +101,11 @@ button {
 		height: 42px;
 	}
 
-	@include bpmax($ml){
-		z-index: 100;
+	&--header {
+		
+		@include bpmax($ml){
+			z-index: 100;
+		}
 	}
 }
 
