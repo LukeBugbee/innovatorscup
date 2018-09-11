@@ -2,6 +2,7 @@ $(function() {
 	SVGAnimations.init();
 	GridItems.init();
 	SectionAnimations.init();
+	PXParallax.init();
 });
 
 var SVGAnimations = (function() {
@@ -127,6 +128,75 @@ var SectionAnimations = (function() {
 		var trigger = $(window).height() * 0.75;
 
 		return (elemTop < trigger);
+	}
+
+	return {
+		init:init
+	};
+}());
+
+
+var PXParallax = (function() {
+	'use strict';
+
+	var $win,
+		$parallax_el,
+		distanceScrolled,
+		speed,
+		max_offset,
+		ticking;
+
+	function init() {
+
+		$win = $(window);
+		$parallax_el = $('.parallax');
+		distanceScrolled = 0;
+		speed = 10;
+		max_offset = 130;
+		ticking = false;
+
+		events();
+	}
+
+	function events() {
+
+		update();
+		$(window).on('scroll', onScroll);
+	}
+
+	function update() {
+
+		ticking = false;
+
+		$parallax_el.each(function(){
+
+			var $t = $(this),
+				offSet = $t.offset().top - distanceScrolled,
+				dist = Math.floor(offSet * speed / 100);
+
+				dist = dist < -max_offset ? -max_offset : dist;
+
+				console.log(dist);
+
+			$t.css({
+				'-webkit-transform' : 'translate3d(0, '+dist+'px, 0)',
+				transform : 'translate3d(0, '+dist+'px, 0)'
+			});
+
+		});
+
+	}
+
+	function onScroll() {
+	    distanceScrolled = window.scrollY;
+	    requestTick();
+	}
+
+	function requestTick() {
+	    if(!ticking) {
+	        requestAnimationFrame(update);
+	    }
+	    ticking = true;
 	}
 
 	return {

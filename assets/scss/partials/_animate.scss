@@ -1,5 +1,5 @@
 .animate--fade-in {
-	transition: $speed-slow $easing;
+	transition: opacity $speed-slow $easing, transform $speed-slow $easing;
 	will-change: opacity, transform;
 
 	&.animate {
