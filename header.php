@@ -36,7 +36,7 @@
 	<?php if (isset($currentPage)): ?>
 	<section class="mod mod-header mod-header--bg">
 
-		<div class="background parallax" style="background-image: linear-gradient(to right, rgba(127,20,236,0.3) 0%, transparent 100%), url(/assets/img/<?= $currentPage['banner'] ?>);"></div>
+		<div class="background" style="background-image: linear-gradient(to right, rgba(127,20,236,0.3) 0%, transparent 100%), url(/assets/img/<?= $currentPage['banner'] ?>); background-position: <?= $currentPage['mobile-position'] ?>;"></div>
 
 		<div class="container">
 			<div class="left-column wysiwyg">

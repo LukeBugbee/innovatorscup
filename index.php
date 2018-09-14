@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <section class="mod-header mod-header--bg full">
 
-	<div class="background parallax"></div>
+	<div class="background"></div>
 
 	<div class="container">
 		<div class="left-column wysiwyg animate animate--fade-in">

@@ -49,6 +49,10 @@
 
 			z-index: -1;
 			position: fixed;
+
+			@include bp($m){
+				background-position: center !important;
+			}
 		}
 	}
 
