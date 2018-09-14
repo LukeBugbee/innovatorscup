@@ -152,8 +152,6 @@ var PXParallax = (function() {
 		$win = $(window);
 		$parallax_el = $('.parallax');
 		distanceScrolled = 0;
-		speed = 10;
-		max_offset = 130;
 		ticking = false;
 
 		events();
@@ -161,7 +159,10 @@ var PXParallax = (function() {
 
 	function events() {
 
-		update();
+		setTimeout(function(){
+			update();
+		}, 0);
+
 		$(window).on('scroll', onScroll);
 	}
 
@@ -172,9 +173,7 @@ var PXParallax = (function() {
 		$parallax_el.each(function(){
 
 			var $t = $(this),
-				offSet = $t.offset().top - distanceScrolled,
-				dist = Math.floor(offSet * speed / 100);
-				dist = dist < -max_offset ? -max_offset : dist;
+				dist = distanceScrolled;
 
 			$t.css({
 				'-webkit-transform' : 'translate3d(0, '+dist+'px, 0)',
