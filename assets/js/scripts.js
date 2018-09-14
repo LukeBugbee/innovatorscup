@@ -2,7 +2,7 @@ $(function() {
 	SVGAnimations.init();
 	GridItems.init();
 	SectionAnimations.init();
-	// PXParallax.init();
+	PXParallax.init();
 	PXHeader.init();
 });
 
@@ -145,7 +145,8 @@ var PXParallax = (function() {
 		distanceScrolled,
 		speed,
 		max_offset,
-		ticking;
+		ticking,
+		$bgImage;
 
 	function init() {
 
@@ -153,6 +154,7 @@ var PXParallax = (function() {
 		$parallax_el = $('.parallax');
 		distanceScrolled = 0;
 		ticking = false;
+		$bgImage = $('.mod-header--bg .background');
 
 		events();
 	}
@@ -170,17 +172,27 @@ var PXParallax = (function() {
 
 		ticking = false;
 
-		$parallax_el.each(function(){
+		if(distanceScrolled > $win.height() * 2 ) {
+			if( !$bgImage.hasClass('hide') ){
+				$bgImage.addClass('hide');
+			}
+		} else {
+			if( $bgImage.hasClass('hide') ){
+				$bgImage.removeClass('hide');
+			}
+		}
 
-			var $t = $(this),
-				dist = distanceScrolled;
-
-			$t.css({
-				'-webkit-transform' : 'translate3d(0, '+dist+'px, 0)',
-				transform : 'translate3d(0, '+dist+'px, 0)'
-			});
-
-		});
+		// $parallax_el.each(function(){
+		//
+		// 	var $t = $(this),
+		// 		dist = distanceScrolled;
+		//
+		// 	$t.css({
+		// 		'-webkit-transform' : 'translate3d(0, '+dist+'px, 0)',
+		// 		transform : 'translate3d(0, '+dist+'px, 0)'
+		// 	});
+		//
+		// });
 
 	}
 

@@ -53,6 +53,10 @@
 			@include bp($m){
 				background-position: center !important;
 			}
+
+			&.hide {
+				display: none;
+			}
 		}
 	}
 
