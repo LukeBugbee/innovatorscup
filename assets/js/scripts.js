@@ -2,7 +2,7 @@ $(function() {
 	SVGAnimations.init();
 	GridItems.init();
 	SectionAnimations.init();
-	PXParallax.init();
+	// PXParallax.init();
 	PXHeader.init();
 });
 

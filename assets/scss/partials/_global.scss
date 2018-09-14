@@ -162,6 +162,7 @@ blockquote {
 
 	.button {
 		border-color: #888;
+		margin-bottom: 0;
 
 		&:hover {
 			border-color: #fff;
@@ -178,7 +179,7 @@ blockquote {
 		background: #1b1b1b;
 		display: block;
 		text-align: center;
-		padding: 100px 50px;
+		padding: 100px 50px 50px;
 	    display: flex;
 	    flex-flow: column;
 	    justify-content: center;
@@ -203,6 +204,10 @@ blockquote {
 	}
 }
 
-section {
+section,
+article {
 	overflow: hidden;
+	background: #000;
+	z-index: 1;
+	position: relative;
 }

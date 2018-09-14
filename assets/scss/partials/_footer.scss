@@ -5,6 +5,9 @@
 	justify-content: space-between;
 	align-items: center;
 	background-color: #000;
+	background: #000;
+    position: relative;
+    z-index: 1;	
 
 	@include bp($m) {
 		flex-flow: row nowrap;
