@@ -2,7 +2,7 @@
 	background-color: $darkPurple;
 	color: $lightGray;
 	padding-top: 100px;
-	padding-bottom: 250px;
+	padding-bottom: 200px;
 	text-align: center;
 	background-size: 100% auto;
 	background-position: bottom center;
@@ -10,6 +10,14 @@
 	border-bottom: 40px solid $darkPurple;
 	position: relative;
 	overflow: hidden;
+
+	@include bp($s){
+		padding-bottom: 250px;
+	}
+
+	@include bp($l){
+		padding-bottom: 300px;
+	}
 
 	h2 {
 		font-size: 24px;
