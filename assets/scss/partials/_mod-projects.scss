@@ -13,6 +13,14 @@
 			padding: 50px;
 		}
 
+		@include bpmax($m){
+			display: block;
+
+			.project {
+				margin-bottom: 30px;
+			}
+		}
+
 		.project__content {
 			position: relative;
 
