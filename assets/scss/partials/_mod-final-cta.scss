@@ -28,21 +28,81 @@
 
 	svg {
 		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
+	    bottom: 0;
+	    left: -5%;
+	    width: 110%;
+
+		@include bpmax($m){
+			bottom: 0;
+		    left: -50%;
+		    width: 200%;
+		}
 
 		path {
 			fill: none !important;
 			stroke: #c8c8c8 !important;
-			stroke-width: 0.6px !important;
-			stroke-dasharray: 8000px;
-			stroke-dashoffset: 8000px;
+			stroke-width: 1px !important;
 
-			&:last-of-type { stroke-width: 1px !important; }
+			$dash1 :  13000px;
+			$dash2 :  14500px;
+			$dash3 :  11000px;
+			$dash4 :  11000px;
 
-			&.animated {
-				animation: drawFinalCta 5s ease forwards;
+			@keyframes drawFinalCta1 {
+				from {stroke-dashoffset: $dash1;}
+				to {stroke-dashoffset: $dash1*2;}
+			}
+
+			@keyframes drawFinalCta2 {
+				from {stroke-dashoffset: $dash2;}
+				to {stroke-dashoffset: $dash2*2;}
+			}
+
+			@keyframes drawFinalCta3 {
+				from {stroke-dashoffset: $dash3;}
+				to {stroke-dashoffset: $dash3*2;}
+			}
+
+			@keyframes drawFinalCta4 {
+				from {stroke-dashoffset: $dash4;}
+				to {stroke-dashoffset: $dash4*2;}
+			}
+
+			&.path-1 {
+				stroke-dasharray: $dash1;
+   			 	stroke-dashoffset: $dash1;
+				display: block;
+
+				&.animated {
+					animation: drawFinalCta1 3s ease forwards;
+				}
+			}
+
+			&.path-2 {
+				stroke-dasharray: $dash2;
+   			 	stroke-dashoffset: $dash2;
+
+				&.animated {
+					animation: drawFinalCta2 3s ease forwards;
+				}
+			}
+
+			&.path-3 {
+				stroke-dasharray: $dash3;
+   			 	stroke-dashoffset: $dash3;
+
+				&.animated {
+					animation: drawFinalCta3 3s ease forwards;
+				}
+			}
+
+			&.path-4 {
+				stroke-dasharray: $dash4;
+   			 	stroke-dashoffset: $dash4;
+
+				&.animated {
+					animation: drawFinalCta4 3s ease forwards;
+				}
 			}
 		}
 	}

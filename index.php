@@ -19,7 +19,7 @@
 </section>
 
 <section class="mod-line-bg">
-	<div class="container wysiwyg">
+	<div class="container wysiwyg animate animate--fade-in">
 		<p>
 			The 8VC Social Innovator’s Cup is designed to encourage the best and brightest North American college students to create original projects that serve those in need.
 		</p>

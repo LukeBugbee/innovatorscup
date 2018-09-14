@@ -38,9 +38,8 @@ $panelMembers = [
 		'title' => '2x Olympic Gold Medalist, Decathlon',
 		'link' => 'https://en.wikipedia.org/wiki/Ashton_Eaton'
 	],
-
 	[
-		'img' => '',
+		'img' => 'ashton_k.jpg',
 		'name' => 'Ashton Kutcher',
 		'title' => 'Actor<br>Founder, Thorn<br>General Partner, Sound Ventures',
 		'link' => 'https://twitter.com/aplusk'
@@ -51,12 +50,6 @@ $panelMembers = [
 		'title' => 'Partner and CTO, 8VC',
 		'link' => 'https://8vc.com/team/bhaskar-ghosh/'
 	],
-	// [
-	// 	'img' => 'jared.jpg',
-	// 	'name' => 'Jared Leto',
-	// 	'title' => 'Actor',
-	// 	'link' => 'https://8vc.com/team/bhaskar-ghosh/'
-	// ],
 	[
 		'img' => 'jerry.jpg',
 		'name' => 'Jerry Yang',
@@ -76,7 +69,7 @@ $panelMembers = [
 		'link' => 'https://en.wikipedia.org/wiki/John_J._Mack'
 	],
 	[
-		'img' => '',
+		'img' => 'julie.jpg',
 		'name' => 'Julie Cordua',
 		'title' => 'CEO at Thorn: Digital Defenders of Children',
 		'link' => 'https://www.wearethorn.org/about-our-fight-against-sexual-exploitation-of-children/staff/'
@@ -87,14 +80,8 @@ $panelMembers = [
 		'title' => 'Partner, 8VC',
 		'link' => 'https://8vc.com/team/kimmy-scotti/'
 	],
-	// [
-	// 	'img' => 'leo.jpg',
-	// 	'name' => 'Leonardo Decaprio',
-	// 	'title' => 'Actor',
-	// 	'link' => ''
-	// ],
 	[
-		'img' => '',
+		'img' => 'phaedra.jpg',
 		'name' => 'Phaedra Ellis-Lamkins',
 		'title' => 'Co-founder at Promise',
 		'link' => 'https://joinpromise.com/'
