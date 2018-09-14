@@ -24,6 +24,14 @@
 		.project__content {
 			position: relative;
 
+			@include bp($m){
+				min-height: 440px;
+			}
+
+			@include bp($l){
+				min-height: 380px;
+			}
+
 			.cover-link {
 				position: absolute;
 				width: 100%;
