@@ -19,7 +19,7 @@
 								</p>
 								<p><?= $project['blurb'] ?></p>
 
-								<a class="cover-link" href="http://<?= $project['url'] ?>" target="_blank">
+								<a class="cover-link" href="http://<?= $project['url'] ?>" target="_blank"></a>
 							</article>
 
 						</div>
