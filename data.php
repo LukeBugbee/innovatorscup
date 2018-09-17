@@ -21,7 +21,7 @@ $pages = [
 		'slug' => 'project-examples',
 		'name' => 'project examples',
 		'headline' => 'CREATIVE IDEAS IMPROVING LIVES',
-		'blurb' => 'We are inspired by the following projects creating positive impact in the world today.',
+		'blurb' => 'We are inspired by these four great examples of innovative, sustainable projects giving a thoughtful helping hand and positively impacting our communities.',
 		'banner' => 'projects-bg.jpg',
 		'mobile-position' => 'center left'
 	],
