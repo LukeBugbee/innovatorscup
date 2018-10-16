@@ -19,7 +19,7 @@
 			<li>Application deadline is December 31, 2018.</li>
 			<li>The Judges Panel will meet in early November to select our finalists by Thanksgiving.</li>
 			<li>20 Finalists will be interviewed by the 8VC team.</li>
-			<li>One $100,000 prize will be awarded and seven $8,000 prizes will be awarded.</li>
+			<li>One $88,000 prize will be awarded and five $8,000 prizes will be awarded.</li>
 			<li>A trip to San Francisco to meet mentors and the broader 8VC network.</li>
 			<li>Promotion and media highlights for each of the awarded groups.</li>
 		</ol>
