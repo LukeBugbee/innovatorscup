@@ -14,15 +14,16 @@
 
 			<p class="regular">About 8VC</p>
 
-			<p>8VC is a venture capital fund in San Francisco founded by Joe Lonsdale. We specialize in Smart Enterprise and Bio-IT investments.</p>
+			<p>
+				Founded in 2012, 8VC is a Silicon-Valley based technology investment firm investing in visionary teams and backing industry-transforming companies. We currently manage $2.7bn+ in AUM and have built our firm and investment strategy based on our core values [link to 8VC values blog]. Our partners have a proven track-record as founders, engineers, and operators of successful companies including Palantir, Addepar and OpenGov, among others. We also cultivate a global positive-sum network of advisors and friends, many who are also leading founders or leaders in industries including Bio-IT, health-IT, logistics, consumer, real estate and others. Our first fund, Formation 8 Fund I, is one of the top performing venture funds; our current and prior investments include market leaders and fast growing companies such as Wish, Illumio, Blend Labs, Oscar, Addepar, RelateIQ and Oculus.
+			</p>
 
-			<p>8VC empowers entrepreneurs to unleash the forces of creative destruction on broken industries. We believe that in the coming decades, innovative technology platforms will continue to replace archaic infrastructure, promoting greater efficiency and global prosperity.</p>
+			<p>
+				Joe Lonsdale is founding partner of 8VC. He is the top ranked venture investor in the world under 40 and was the youngest member of Forbes’ Midas list in 2016 and 2017. Joe and the partnership at 8VC know firsthand the ability for young people to affect incredible economic and social change, and we’re excited to enable current students to bring their most innovative social impact ideas to life.
+			</p>
 
-			<p>Our experienced team harnesses a diverse skill set to assist projects that are revolutionizing the commercial and political landscape, and driving social progress.</p>
+			<p>Learn more about us through our <a href="https://8vc.com/resources/whitepapers/">8VC whitepapers</a> and recent <a href="https://8vc.com/resources/blog/">blog posts</a>.</p>
 
-			<p class="regular">We believe that joining together and using our experience and skill set to change the world in the best way we know how creates the biggest impact.</p>
-
-			<p>Learn more about us through our <a href="#">8VC whitepapers</a> and recent <a href="#">blog posts</a>.</p>
 		</div><!-- /.container container--small -->
 	</article><!-- /.post -->
 
