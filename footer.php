@@ -4,7 +4,7 @@
 	<div class="container">
 		<h2>Let&rsquo;s build shared value together.</h2>
 		<a href="https://8vc.typeform.com/to/ke4Q6u" target="_blank" class="button button--extra-wide">Apply</a>
-		<small>Application deadline: October 31</small>
+		<small>Application deadline: December 31, 2018</small>
 	</div>
 	<!-- /.container -->
 

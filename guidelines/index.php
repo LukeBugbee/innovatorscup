@@ -16,7 +16,7 @@
 		<p class="regular">Competition Details</p><!-- /.regular -->
 		<p>We will evaluate each project individually on its merits, and applicants should feel free to structure their projects in the best way they can think of. There are no rules when it comes to innovating to help others.</p>
 		<ol>
-			<li>Application deadline is October 31, 2018.</li>
+			<li>Application deadline is December 31, 2018.</li>
 			<li>The Judges Panel will meet in early November to select our finalists by Thanksgiving.</li>
 			<li>20 Finalists will be interviewed by the 8VC team.</li>
 			<li>One $100,000 prize will be awarded and seven $8,000 prizes will be awarded.</li>
