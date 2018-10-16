@@ -24,7 +24,14 @@
 		margin-bottom: 40px;
 		font-weight: 300;
 
-		&.regular { font-weight: 400; }
+		&.regular {
+			font-weight: 400;
+		}
+
+		.guidelines &,
+		.about-8vc & {
+			font-weight: 400;
+		}
 
 		a {
 			font-weight: bold;

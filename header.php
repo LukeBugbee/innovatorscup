@@ -15,9 +15,12 @@
 	if( $_SERVER['REQUEST_URI'] == '/' ) {
 		$home = true;
 	}
+
+	$body_class = (!$home) ? $_SERVER['REQUEST_URI'] : 'home';
+	$body_class = str_replace('/', '', $body_class);
 ?>
 
-<body class="<?php if($home){ echo 'home'; } ?>">
+<body class="<?php echo $body_class; ?>">
 	<header class="ic-header">
 		<a class="logo logo--header" href="/">8VC Innovators Cup</a>
 
