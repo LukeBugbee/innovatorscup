@@ -4,8 +4,8 @@ $pages = [
 	[
 		'slug' => 'meet-the-panel',
 		'name' => 'meet the panel',
-		'headline' => 'ADVOCATING CHANGE GLOBAL IMPACT FPO',
-		'blurb' => 'Our panel consists of entrepreneurs, technologists, and industry influencers.',
+		'headline' => 'Meet the Panel',
+		'blurb' => 'Competitors will be judged by a diverse group of technologists, philanthropists, industry leaders and visionaries.',
 		'banner' => 'panel-bg.jpg',
 		'mobile-position' => 'center'
 	],
