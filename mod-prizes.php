@@ -24,7 +24,7 @@
 						Promotion, Exposure, and Mentorship
 					</h3>
 					<p>
-						We will use our social media reach to promote and highlight winning projects.
+						Participants will receive mentorship from top leaders who understand how to scale philanthropic impact because they’ve done it themselves. These experts are excited to work with high-energy students with impactful ideas.
 					</p>
 				</div><!-- /.column__content -->
 			</div>
