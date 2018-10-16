@@ -67,12 +67,6 @@ $panelMembers = [
 		'link' => 'https://8vc.com/team/joe-lonsdale/'
 	],
 	[
-		'img' => 'john.jpg',
-		'name' => 'John Mack',
-		'title' => 'Former CEO, Morgan Stanley <br /> Former CEO, Credit Suisse',
-		'link' => 'https://en.wikipedia.org/wiki/John_J._Mack'
-	],
-	[
 		'img' => 'julie.jpg',
 		'name' => 'Julie Cordua',
 		'title' => 'CEO at Thorn: Digital Defenders of Children',
