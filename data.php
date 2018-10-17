@@ -107,7 +107,7 @@ $projects = [
 	],
 	[
 		'name' => 'OneHope Foundation',
-		'url' => 'onehopefoundation.org',
+		'url' => 'www.onehopefoundation.org',
 		'logo' => 'onehope.png',
 		'blurb' => 'The OneHope Foundation is a vineyard and wine vendor that pledges to give a fixed percentage of its earnings to worthy causes. OneHope’s cause-centric commerce model has funded the planting of 52,011 trees in reforestation projects, provided 16,719 people with clean drinking water, provided 1,088,492 hungry children with healthy meals, and aided a variety of other crucial humanitarian projects.'
 	],
