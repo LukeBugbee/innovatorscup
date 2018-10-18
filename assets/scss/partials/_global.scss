@@ -130,8 +130,25 @@ hr.divider {
 
 blockquote {
 	color: $lightGray;
+
 	p {
-		font-size: 36px;
+		font-size: 30px;
+		position: relative;
+
+		&:before,
+		&:after {
+			content: '';
+			display: inline;
+		}
+
+		&:before {
+			content: "\201C";
+			position: absolute;
+				top: 0; left: -.4em;
+		}
+		&:after {
+			content: "\201D";
+		}
 	}
 }
 

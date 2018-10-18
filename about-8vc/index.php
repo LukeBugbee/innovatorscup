@@ -9,7 +9,7 @@
 			<p>The 8VC Social Innovator’s Cup will fund radical new initiatives that create “shared value” by expanding opportunity for all, raising standards of living, and strengthening civic bonds. Projects that harness market forces and community compassion can improve lives at scale.</p>
 
 			<blockquote>
-				<p>"Projects that harness market forces and community compassion can improve lives at scale."</p>
+				<p>Projects that harness market forces and community compassion can improve lives at scale.</p>
 			</blockquote>
 
 			<p class="regular">About 8VC</p>

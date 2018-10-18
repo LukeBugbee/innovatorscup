@@ -12,16 +12,19 @@ gulp.task('sass', (cb) => {
 	pump([
 		gulp.src([
 			'assets/scss/*.scss',
-			'assets/scss/**/*.scss'
+			// 'assets/scss/**/*.scss'
 		]),
-		sourcemaps.init(),
+		// sourcemaps.init(),
 		concat('styles.min.scss'),
-		sass({ outputStyle: 'compressed', includePaths: './src/scss' }),
+		sass({
+			outputStyle: 'nested',
+			// includePaths: './src/scss'
+		}),
 		autoprefixer({
 			browsers: ['last 2 versions'],
 			cascade: false
 		}),
-		sourcemaps.write(),
+		// sourcemaps.write(),
 		gulp.dest('assets/css'),
 		bs.stream()
 		], cb);
