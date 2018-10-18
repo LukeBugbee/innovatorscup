@@ -41,4 +41,52 @@
 
 <?php include 'mod-prizes.php' ?>
 
+<section class="mod mod--leaderboard">
+	<div class="container">
+		<h2>School leaderboard</h2>
+
+		<div class="columns">
+
+			<div class="column">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+				<p>
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				</p>
+
+				<a href="#" class="button button--facebook">Share</a>
+				<a href="#" class="button button--twitter">Tweet</a>
+
+			</div>
+			<!-- /.column -->
+
+			<div class="column">
+				<div class="leaderboard">
+					<div class="leaderboard__header">
+						<h3>Current standings</h3>
+					</div>
+					<!-- /.leaderboard__header -->
+					<div class="leaderboard__content leaderboard__content--temp">
+						<div class="temp">
+							<p class="check-back">
+								Check back on November 1
+								to see where your school stands.
+							</p>
+							<!-- /.check-back -->
+						</div>
+						<!-- /.temp -->
+					</div>
+					<!-- /.leaderboard__content -->
+				</div>
+				<!-- /.leaderboard -->
+			</div>
+			<!-- /.column -->
+
+		</div>
+		<!-- /.columns -->
+	</div>
+	<!-- /.container -->
+</section>
+
 <?php include 'footer.php'; ?>

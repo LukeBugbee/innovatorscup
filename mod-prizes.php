@@ -44,7 +44,7 @@
 		</div>
 		<!-- /.column-container -->
 
-		<!-- <a href="#" class="button button--wide">Contest Guidelines</a> -->
+		<a href="/guidelines" class="button button--wide">Contest Guidelines</a>
 
 	</div>
 	<!-- /.container -->

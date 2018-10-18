@@ -1,0 +1,82 @@
+.mod--leaderboard {
+	padding: 0 0 60px;
+	@include bp($m) {
+		padding: 0 0 100px;
+	}
+
+	h2 {
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 40px;
+	}
+
+	p {
+		margin-bottom: 1em;
+	}
+
+	.columns {
+		display: flex;
+		flex-direction: column;
+		margin: 0 -20px;
+
+		@include bp($m) {
+
+			flex-direction: row;
+		}
+	}
+
+	.column {
+		margin: 20px;
+	}
+	@include bp($m) {
+		.column {
+			width: 50%;
+		}
+	}
+
+	.leaderboard {
+		background: #fff;
+		border-radius: 10px;
+		overflow: hidden;
+
+		display: flex;
+		flex-direction: column;
+
+		&__header {
+			padding: 10px 50px;
+			background: #ccc;
+			color: $darkGray;
+		}
+
+		&__content--temp {
+			flex-grow: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding: 40px 0;
+		}
+
+		.temp {
+			position: relative;
+			padding-top: 100px;
+			text-align: center;
+			max-width: 230px;
+			margin: 0 auto;
+
+			&:before {
+				content: '';
+				position: absolute;
+					top: 0; left: 50%;
+				width: 80px;
+				height: 80px;
+				border: 1px solid blue;
+				transform: translate(-50%, 0%);
+			}
+		}
+
+		&__content {
+			color: $darkGray;
+		}
+	}
+
+}

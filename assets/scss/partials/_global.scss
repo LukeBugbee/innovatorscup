@@ -74,6 +74,23 @@ button {
 		padding: 20px 95px;
 		@include bp($m) { padding: 20px 185px; }
 	}
+
+	&--facebook,
+	&--twitter {
+		position: relative;
+		padding-left: 50px;
+		text-transform: none;
+
+		&:before {
+			content: '';
+			position: absolute;
+				top: 8px;
+				left: 20px;
+			width: 20px;
+			height: 20px;
+			border: 1px solid blue;
+		}
+	}
 }
 
 .logo {

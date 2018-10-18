@@ -17,7 +17,7 @@ gulp.task('sass', (cb) => {
 		// sourcemaps.init(),
 		concat('styles.min.scss'),
 		sass({
-			outputStyle: 'nested',
+			outputStyle: 'compressed',
 			// includePaths: './src/scss'
 		}),
 		autoprefixer({
