@@ -1,12 +1,12 @@
 .mod--leaderboard {
-	padding: 0 0 60px;
+	padding: 40px 0 60px;
 
 	> .container {
 		overflow: hidden;
 	}
 
 	@include bp($m) {
-		padding: 0 30px 100px;
+		padding: 80px 30px 160px;
 	}
 
 	h2 {
