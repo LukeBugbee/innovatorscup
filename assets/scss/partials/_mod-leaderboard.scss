@@ -32,7 +32,15 @@
 
 	.column {
 		margin: 20px;
+
+		&:first-child {
+			@include bp($l){
+				padding-top: 30px;
+				padding-left: 120px;
+			}
+		}
 	}
+
 	@include bp($m) {
 		.column {
 			width: 50%;
@@ -59,6 +67,7 @@
 			flex-direction: column;
 			justify-content: center;
 			padding: 40px 0;
+			height: 360px;
 		}
 
 		.temp {
