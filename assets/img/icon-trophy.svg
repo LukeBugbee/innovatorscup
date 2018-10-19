@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-trophy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Innovator's-Cup-Homepage" transform="translate(-921.000000, -2744.000000)">
+            <g id="Leaderboard-Empty" transform="translate(211.000000, 2523.000000)">
+                <g id="icon-trophy" transform="translate(711.000000, 222.000000)">
+                    <polygon id="Stroke-1" fill="#7000FF" points="22.9432 6 24.9432 10 28.9432 10 25.7072 12.47 26.9432 17 22.9432 14 18.9432 17 20.5312 12.47 16.9432 10 20.9432 10"></polygon>
+                    <g id="Group-8" stroke="#181818" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9.2566,20 C-0.7434,20 0.0126,6.762 0.0126,4 L5.0826,4" id="Stroke-2"></path>
+                        <path d="M36.7,20 C46.7,20 46.002,6.762 46.002,4 L40.874,4" id="Stroke-4"></path>
+                        <path d="M41.0134,0 L5.0134,0 C5.0134,30.868 20.9434,22.108 20.9434,33 C20.8174,40 17.5354,42 12.0134,42 L12.0134,46 L34.0134,46 L34.0134,42 C28.4894,42 24.9434,40 24.9434,33 C24.9434,22.094 41.0134,30.74 41.0134,0 Z" id="Stroke-6"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
