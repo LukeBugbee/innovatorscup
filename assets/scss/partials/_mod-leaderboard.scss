@@ -35,7 +35,7 @@
 
 		.column__text {
 			line-height: 1.8;
-			
+
 			@include bp($m){
 				max-width: 460px;
 				float: right;
@@ -51,7 +51,7 @@
 
 	.leaderboard {
 		background: #fff;
-		border-radius: 10px;
+		border-radius: 5px;
 		overflow: hidden;
 
 		display: flex;
