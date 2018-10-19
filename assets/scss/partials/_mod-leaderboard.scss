@@ -33,10 +33,12 @@
 	.column {
 		margin: 20px;
 
-		&:first-child {
-			@include bp($l){
-				padding-top: 30px;
-				padding-left: 120px;
+		.column__text {
+			line-height: 1.8;
+			
+			@include bp($m){
+				max-width: 460px;
+				float: right;
 			}
 		}
 	}
@@ -59,6 +61,11 @@
 			padding: 10px 50px;
 			background: #ccc;
 			color: $darkGray;
+
+			h3 {
+				margin: 0;
+				font-size: 18px;
+			}
 		}
 
 		&__content--temp {
@@ -72,7 +79,7 @@
 
 		.temp {
 			position: relative;
-			padding-top: 100px;
+			padding-top: 80px;
 			text-align: center;
 			max-width: 230px;
 			margin: 0 auto;
@@ -81,9 +88,8 @@
 				content: '';
 				position: absolute;
 				top: 0; left: 50%;
-				width: 80px;
-				height: 80px;
-				border: 1px solid blue;
+				width: 60px;
+				height: 60px;
 				transform: translate(-50%, 0%);
 				background: url(../img/icon-trophy.svg) no-repeat center;
 				background-size: 100%;
@@ -91,8 +97,9 @@
 			}
 
 			.check-back {
-				font-size: 18px;
+				font-size: 17px;
 				font-style: italic;
+				line-height: 1.6;
 			}
 
 		}
