@@ -94,6 +94,12 @@ button {
 			width: 30px;
 			height: 30px;
 		}
+
+		@include bpmax($m){
+			padding-left: 30px;
+			padding-right: 30px;
+			margin-right: 10px;
+		}
 	}
 
 	&--facebook {
