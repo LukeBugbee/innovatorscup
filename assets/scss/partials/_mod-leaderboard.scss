@@ -1,7 +1,8 @@
 .mod--leaderboard {
 	padding: 0 0 60px;
+
 	@include bp($m) {
-		padding: 0 0 100px;
+		padding: 0 30px 100px;
 	}
 
 	h2 {
@@ -72,31 +73,16 @@
 				border: 1px solid blue;
 				transform: translate(-50%, 0%);
 			}
+
+			.check-back {
+				font-size: 18px;
+				font-style: italic;
+			}
+
 		}
 
 		&__content {
 			color: $darkGray;
-		}
-	}
-
-	.button--facebook,
-	.button--twitter {
-		border: none;
-	}
-
-	.button--facebook {
-		&:before {
-			background: url(../img/social-icon-fb.svg) no-repeat center;
-			background-size: 100%;
-			border: none;
-		}
-	}
-
-	.button--twitter {
-		&:before {
-			background: url(../img/social-icon-twitter.svg) no-repeat center;
-			background-size: 100%;
-			border: none;
 		}
 	}
 }
