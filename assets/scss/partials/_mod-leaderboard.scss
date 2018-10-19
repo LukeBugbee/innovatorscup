@@ -1,6 +1,10 @@
 .mod--leaderboard {
 	padding: 0 0 60px;
 
+	> .container {
+		overflow: hidden;
+	}
+
 	@include bp($m) {
 		padding: 0 30px 100px;
 	}
