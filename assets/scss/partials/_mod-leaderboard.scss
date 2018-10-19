@@ -79,4 +79,24 @@
 		}
 	}
 
+	.button--facebook,
+	.button--twitter {
+		border: none;
+	}
+
+	.button--facebook {
+		&:before {
+			background: url(../img/social-icon-fb.svg) no-repeat center;
+			background-size: 100%;
+			border: none;
+		}
+	}
+
+	.button--twitter {
+		&:before {
+			background: url(../img/social-icon-twitter.svg) no-repeat center;
+			background-size: 100%;
+			border: none;
+		}
+	}
 }
