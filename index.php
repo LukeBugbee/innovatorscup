@@ -55,7 +55,7 @@
 					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 				</p>
 
-				<a href="#" class="button button--facebook">Share</a>
+				<!-- <a href="#" class="button button--facebook">Share</a> -->
 				<a href="#" class="button button--twitter">Tweet</a>
 
 			</div>
