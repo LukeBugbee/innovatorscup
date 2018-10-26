@@ -20,6 +20,7 @@
 			flex-flow: row nowrap;
 			min-width: 50%;
 			transition: .45s ease;
+			position: relative;
 
 			&:hover {
 				cursor: pointer;
