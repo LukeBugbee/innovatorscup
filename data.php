@@ -12,7 +12,7 @@ $pages = [
 	[
 		'slug' => 'guidelines',
 		'name' => 'guidelines',
-		'headline' => 'CONTEST  GUIDELINES',
+		'headline' => 'CONTEST GUIDELINES',
 		'blurb' => '',
 		'banner' => 'guidelines-bg.jpg',
 		'mobile-position' => 'center left'
