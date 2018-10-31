@@ -48,7 +48,12 @@ gulp.task('js', (cb) => {
 });
 
 gulp.task('serve', (cb) => {
-	bs.init({ proxy: 'innovators-cup.test' });
+	bs.init({
+		// proxy: 'innovators-cup.test'
+		server: {
+            baseDir: "./"
+        }
+	});
 
 	gulp.watch(['assets/**/*.js', '!assets/js/scripts.min.js'], ['js']);
 	gulp.watch(['assets/scss/**/*.scss'], ['sass']);
