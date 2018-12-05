@@ -909,7 +909,8 @@ article {
           .mod--leaderboard .leaderboard__content ul li .logo-leaderboard--georgia-tech {
             background-image: url(../images/georgia-tech.png); }
           .mod--leaderboard .leaderboard__content ul li .logo-leaderboard--columbia {
-            background-image: url(../images/columbia.png); }
+            background-image: url(../images/columbia.png);
+            background-size: 325px; }
     .mod--leaderboard .leaderboard__content--temp {
       flex-grow: 1;
       display: flex;
