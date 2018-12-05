@@ -70,16 +70,20 @@
 					<div class="leaderboard__content">
 						<ul>
 							<li>
-								<div class="number">1st</div><!-- /.number -->
-								<div class="logo-leaderboard logo-leaderboard--stanford"></div><!-- /.logo-leaderboard -->
+								<!-- <div class="number">1st</div> -->
+								<div class="logo-leaderboard logo-leaderboard--berkeley"></div><!-- /.logo-leaderboard -->
 							</li>
 							<li>
-								<div class="number">2nd</div><!-- /.number -->
+								<!-- <div class="number">2nd</div> -->
 								<div class="logo-leaderboard logo-leaderboard--waterloo"></div><!-- /.logo-leaderboard -->
 							</li>
 							<li>
-								<div class="number">3rd</div><!-- /.number -->
-								<div class="logo-leaderboard logo-leaderboard--wharton"></div><!-- /.logo-leaderboard -->
+								<!-- <div class="number">3rd</div> -->
+								<div class="logo-leaderboard logo-leaderboard--georgia-tech"></div><!-- /.logo-leaderboard -->
+							</li>
+							<li>
+								<!-- <div class="number">1st</div> -->
+								<div class="logo-leaderboard logo-leaderboard--columbia"></div><!-- /.logo-leaderboard -->
 							</li>
 						</ul>
 					</div>

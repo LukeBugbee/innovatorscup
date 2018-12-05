@@ -896,13 +896,20 @@ article {
           background-position: center;
           background-repeat: no-repeat;
           padding-bottom: 10%;
-          width: 100%; }
+          width: 80%;
+          margin: 0 auto; }
           .mod--leaderboard .leaderboard__content ul li .logo-leaderboard--stanford {
             background-image: url(../images/stanford.png); }
           .mod--leaderboard .leaderboard__content ul li .logo-leaderboard--waterloo {
             background-image: url(../images/waterloo.png); }
           .mod--leaderboard .leaderboard__content ul li .logo-leaderboard--wharton {
             background-image: url(../images/wharton.png); }
+          .mod--leaderboard .leaderboard__content ul li .logo-leaderboard--berkeley {
+            background-image: url(../images/berkeley.png); }
+          .mod--leaderboard .leaderboard__content ul li .logo-leaderboard--georgia-tech {
+            background-image: url(../images/georgia-tech.png); }
+          .mod--leaderboard .leaderboard__content ul li .logo-leaderboard--columbia {
+            background-image: url(../images/columbia.png); }
     .mod--leaderboard .leaderboard__content--temp {
       flex-grow: 1;
       display: flex;

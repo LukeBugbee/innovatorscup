@@ -87,11 +87,15 @@
 						background-position: center;
 						background-repeat: no-repeat;
 						padding-bottom: 10%;
-						width: 100%;
+						width: 80%;
+						margin: 0 auto;
 
 						&--stanford { background-image: url(../images/stanford.png); }
 						&--waterloo { background-image: url(../images/waterloo.png); }
 						&--wharton { background-image: url(../images/wharton.png); }
+						&--berkeley { background-image: url(../images/berkeley.png); }
+						&--georgia-tech { background-image: url(../images/georgia-tech.png); }
+						&--columbia { background-image: url(../images/columbia.png); }
 					}
 				}
 			}
