@@ -68,6 +68,35 @@
 			}
 		}
 
+		&__content {
+			ul {
+				display: block;
+
+				li {
+					display: flex;
+					flex-flow: row nowrap;
+					align-items: center;
+					padding: 30px 0;
+					border-bottom: 1px solid #b4b4b4;
+
+					&:last-child { border-bottom: 0; }
+
+					.number { padding: 0 50px; }
+					.logo-leaderboard {
+						background-size: contain;
+						background-position: center;
+						background-repeat: no-repeat;
+						padding-bottom: 10%;
+						width: 100%;
+
+						&--stanford { background-image: url(../images/stanford.png); }
+						&--waterloo { background-image: url(../images/waterloo.png); }
+						&--wharton { background-image: url(../images/wharton.png); }
+					}
+				}
+			}
+		}
+
 		&__content--temp {
 			flex-grow: 1;
 			display: flex;
