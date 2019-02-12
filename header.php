@@ -32,7 +32,7 @@
 			<?php foreach ($pages as $page): ?>
 				<a <?= (strpos($_SERVER['REQUEST_URI'], $page['slug']) !== false) ? 'class="active"' : '' ?> href="<?= '/' . $page['slug'] ?>"><?= $page['name'] ?></a>
 			<?php endforeach ?>
-			<a class="button" href="https://8vc.typeform.com/to/ke4Q6u" target="_blank">Apply</a>
+			<a class="button" href="https://8vc.typeform.com/to/ke4Q6u" target="_blank">Sign-up to get notified</a>
 		</nav>
 	</header>
 
