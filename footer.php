@@ -3,8 +3,8 @@
 <section class="mod mod--final-cta">
 	<div class="container">
 		<h2>Let&rsquo;s build shared value together.</h2>
-		<a href="https://8vc.typeform.com/to/ke4Q6u" target="_blank" class="button button--extra-wide">Apply</a>
-		<small>Application deadline: December 31, 2018</small>
+		<a href="https://8vc.typeform.com/to/PSQP3e" target="_blank" class="button button--extra-wide">Sign-up to get notified</a>
+		<small>Applications will reopen in Fall 2019</small>
 	</div>
 	<!-- /.container -->
 
