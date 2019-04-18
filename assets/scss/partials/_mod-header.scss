@@ -74,7 +74,11 @@
 		$winners: psyonic, invicted, your-choice;
 		@each $winner in $winners {
 			&--#{$winner} {
-				background-image: url(../images/#{$winner}-background.jpg);
+				background-image: url(../images/#{$winner}-background.png);
+
+				@include retina() {
+					background-image: url(../images/#{$winner}-background@2x.png);
+				}
 			}
 		}
 
