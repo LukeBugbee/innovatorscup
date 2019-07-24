@@ -297,17 +297,15 @@ var PXModals = (function() {
 	}
 
 	function openModal(modalID, videoIframe){
-
 		if (videoIframe) {
 			$('#'+modalID).find('.modal-video').html(videoIframe);
 		}
-
 		$('body').add( $('#'+modalID) ).addClass('modal--active');
 		history.replaceState({}, "", window.location.pathname+'#'+modalID );
 	}
 
 	function closeModal(){
-		$('.modal--active .modal-video').html();
+		$('.modal--active .modal-video').empty();
 		$('.modal--active').removeClass('modal--active');
 		history.replaceState({}, "", window.location.pathname );
 	}
