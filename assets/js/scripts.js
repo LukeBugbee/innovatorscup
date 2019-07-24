@@ -307,7 +307,7 @@ var PXModals = (function() {
 	}
 
 	function closeModal(){
-		$('.modal--active .modal-video').empty();
+		$('.modal--active .modal-video').html();
 		$('.modal--active').removeClass('modal--active');
 		history.replaceState({}, "", window.location.pathname );
 	}
