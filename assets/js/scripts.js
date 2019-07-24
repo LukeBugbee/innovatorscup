@@ -4,6 +4,7 @@ $(function() {
 	SectionAnimations.init();
 	PXParallax.init();
 	PXHeader.init();
+	PXModals.init();
 });
 
 var SVGAnimations = (function() {
@@ -241,5 +242,79 @@ var PXHeader = (function() {
 
 	return {
 		init:init
+	};
+}());
+
+
+var PXModals = (function() {
+	'use strict';
+
+	var modal_btn_selector;
+
+	function init() {
+
+		modal_btn_selector = '.menu a[href^="#"], [data-modal]';
+
+		events();
+	}
+
+	function events() {
+
+		$('body').on('click touchstart', modal_btn_selector, function(e) {
+
+			var $t = $(this),
+				modalID = $t.data('modal') ? $t.data('modal').replace('#', '') : $t.attr('href').replace('#', '');
+
+			if($('#'+modalID).hasClass('modal')){
+				e.preventDefault();
+
+				if ($t.data('modal-video').length) {
+					openModal(modalID, $t.data('modal-video'));
+				} else {
+					openModal(modalID);
+				}
+			}
+		});
+
+		$('body').on('click', '.modal__close', function(){
+			closeModal();
+		});
+
+		$('body').on('click', '.modal', function(e){
+			if ($(e.target).closest('.modal__content').length === 0) {
+				closeModal();
+		    }
+		});
+
+		if(window.location.hash) {
+			var hash = window.location.hash;
+
+			if ( $(hash+'.modal').length ) {
+				openModal( hash.replace('#', '') );
+			}
+		}
+
+	}
+
+	function openModal(modalID, videoIframe){
+
+		if (videoIframe) {
+			$('#'+modalID).find('.modal-video').html(videoIframe);
+		}
+
+		$('body').add( $('#'+modalID) ).addClass('modal--active');
+		history.replaceState({}, "", window.location.pathname+'#'+modalID );
+	}
+
+	function closeModal(){
+		$('.modal--active .modal-video').empty();
+		$('.modal--active').removeClass('modal--active');
+		history.replaceState({}, "", window.location.pathname );
+	}
+
+	return {
+		init:init,
+		openModal: openModal,
+		closeModal: closeModal
 	};
 }());
